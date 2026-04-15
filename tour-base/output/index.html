@@ -36,11 +36,11 @@
 	</head>
 	<body>
 <!-- - - - - - - 8<- - - - - - cut here - - - - - 8<- - - - - - - -->
-		<script type="text/javascript" src="pano2vr_player.js?ts=48903657">
+		<script type="text/javascript" src="pano2vr_player.js?ts=49128110">
 		</script>
-		<script type="text/javascript" src="skin.js?ts=48903657">
+		<script type="text/javascript" src="skin.js?ts=49128110">
 		</script>
-		<script type="text/javascript" src="skin_vr.js?ts=48903657">
+		<script type="text/javascript" src="skin_vr.js?ts=49128110">
 		</script>
 		<script src="https://www.youtube.com/iframe_api"></script>
 		<script src="https://player.vimeo.com/api/player.js"></script>
@@ -51,14 +51,14 @@
 		<script type="text/javascript">
 			// create the panorama player with the container
 			pano=new pano2vrPlayer("container");
-			pano.setQueryParameter("ts=48903657")
+			pano.setQueryParameter("ts=49128110")
 			// add the skin object
 			skin=new pano2vrSkin(pano);
 			// add the vrskin object
 			vrskin=new pano2vrVrSkin(pano);
 			// load the configuration
 			window.addEventListener("load", function() {
-				pano.readConfigUrlAsync("pano.xml?ts=48903657");
+				pano.readConfigUrlAsync("pano.xml?ts=49128110");
 			});
 			if (window.navigator.userAgent.match(/Safari/i)) {
 				// fix for white borders, rotation on iPhone

@@ -51,7 +51,7 @@
         <latitude>42.58960796</latitude>
         <longitude>-8.78420812</longitude>
         <floorplancoordinates>
-          <floorplanid>FloorPlan01</floorplanid>
+          <floorplanid>P0</floorplanid>
           <x>388</x>
           <y>156</y>
           <autoplace>0</autoplace>
@@ -182,7 +182,7 @@
         <latitude>42.58951130</latitude>
         <longitude>-8.78408902</longitude>
         <floorplancoordinates>
-          <floorplanid>FloorPlan01</floorplanid>
+          <floorplanid>P0</floorplanid>
           <x>328</x>
           <y>420</y>
           <autoplace>0</autoplace>
@@ -338,7 +338,7 @@
         <latitude>42.58952127</latitude>
         <longitude>-8.78398045</longitude>
         <floorplancoordinates>
-          <floorplanid>FloorPlan01</floorplanid>
+          <floorplanid>P0</floorplanid>
           <x>440</x>
           <y>544</y>
           <autoplace>0</autoplace>
@@ -494,7 +494,7 @@
         <latitude>42.58963278</latitude>
         <longitude>-8.78402790</longitude>
         <floorplancoordinates>
-          <floorplanid>FloorPlan01</floorplanid>
+          <floorplanid>P0</floorplanid>
           <x>588</x>
           <y>352</y>
           <autoplace>0</autoplace>
@@ -596,7 +596,7 @@
         <latitude>42.58939476</latitude>
         <longitude>-8.78386734</longitude>
         <floorplancoordinates>
-          <floorplanid>FloorPlan01</floorplanid>
+          <floorplanid>P0</floorplanid>
           <x>324</x>
           <y>836</y>
           <autoplace>0</autoplace>
@@ -698,7 +698,7 @@
         <latitude>42.58976977</latitude>
         <longitude>-8.78380501</longitude>
         <floorplancoordinates>
-          <floorplanid>FloorPlan01</floorplanid>
+          <floorplanid>P0</floorplanid>
           <x>1016</x>
           <y>468</y>
           <autoplace>0</autoplace>
@@ -769,10 +769,10 @@
     </userdata>
     <floorplans>
       <floorplan>
-        <id>FloorPlan01</id>
+        <id>P0</id>
         <floorplanfilename>Plano pt.baixa.png</floorplanfilename>
         <type>file</type>
-        <lastmodified>2026-04-15T12:28:07</lastmodified>
+        <lastmodified>2026-04-15T12:31:55</lastmodified>
         <floorplannorth>55.02</floorplannorth>
         <floorplanoutputbackgroundcolor>#000000</floorplanoutputbackgroundcolor>
         <floorplananchornodes>1</floorplananchornodes>
@@ -781,6 +781,7 @@
         <floorplanlongitude>-8.78382683</floorplanlongitude>
         <floorplanlatitude>42.58972159</floorplanlatitude>
         <floorplanscale>98.09</floorplanscale>
+        <floorplantitle>Planta baixa</floorplantitle>
       </floorplan>
     </floorplans>
     <hotspots/>
