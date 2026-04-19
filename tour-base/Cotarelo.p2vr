@@ -789,7 +789,7 @@
       <htmlcss>
         <html>
           <enabled>1</enabled>
-          <filename>output/index.html</filename>
+          <filename>index.html</filename>
           <values>
             <value id="cachebust">true</value>
             <value id="css"/>
@@ -853,13 +853,13 @@
       <usenodealtitude>0</usenodealtitude>
       <fovmode>vertical</fovmode>
       <translationsavailable>
-        <value id="Project">es-ES</value>
+        <value id="Proyecto">es-ES</value>
       </translationsavailable>
       <translationsnames>
-        <value id="Project">español de España</value>
+        <value id="Proyecto">español de España</value>
       </translationsnames>
       <translationsenabled>
-        <value id="Project">true</value>
+        <value id="Proyecto">true</value>
       </translationsenabled>
     </projectsettings>
     <ggloudproject/>
