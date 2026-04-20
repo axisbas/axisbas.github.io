@@ -164,7 +164,7 @@
           <tilt>-90</tilt>
           <fov>170</fov>
         </flyinstart>
-        <pannorth>116.056</pannorth>
+        <pannorth>102.3</pannorth>
         <scaletofit>1</scaletofit>
         <projection>rectilinear</projection>
         <flyinprojection>stereo</flyinprojection>
@@ -181,8 +181,8 @@
         <longitude>-8.78408902</longitude>
         <floorplancoordinates>
           <floorplanid>P0</floorplanid>
-          <x>324</x>
-          <y>388</y>
+          <x>376</x>
+          <y>448</y>
           <autoplace>0</autoplace>
         </floorplancoordinates>
       </userdata>
@@ -216,8 +216,8 @@
         </hotspot>
         <hotspot>
           <position>
-            <pan>53.488</pan>
-            <tilt>0</tilt>
+            <pan>67.3959</pan>
+            <tilt>-3.04</tilt>
             <fov>10</fov>
           </position>
           <next>
@@ -235,7 +235,7 @@
           <target>$fwd</target>
           <distance>0</distance>
           <distanceauto>1</distanceauto>
-          <autoplace>1</autoplace>
+          <autoplace>0</autoplace>
           <use3d>0</use3d>
           <width>0</width>
           <height>0</height>
@@ -359,8 +359,8 @@
         <longitude>-8.78398045</longitude>
         <floorplancoordinates>
           <floorplanid>P0</floorplanid>
-          <x>480</x>
-          <y>432</y>
+          <x>508</x>
+          <y>434</y>
           <autoplace>0</autoplace>
         </floorplancoordinates>
       </userdata>
@@ -368,8 +368,8 @@
       <hotspots>
         <hotspot>
           <position>
-            <pan>-14.4657</pan>
-            <tilt>0</tilt>
+            <pan>345.587</pan>
+            <tilt>-2.98</tilt>
             <fov>10</fov>
           </position>
           <next>
@@ -387,15 +387,15 @@
           <target>$fwd</target>
           <distance>0</distance>
           <distanceauto>1</distanceauto>
-          <autoplace>1</autoplace>
+          <autoplace>0</autoplace>
           <use3d>0</use3d>
           <width>0</width>
           <height>0</height>
         </hotspot>
         <hotspot>
           <position>
-            <pan>-41.2732</pan>
-            <tilt>0</tilt>
+            <pan>-41.941</pan>
+            <tilt>-1.18</tilt>
             <fov>10</fov>
           </position>
           <next>
@@ -413,15 +413,15 @@
           <target>$fwd</target>
           <distance>0</distance>
           <distanceauto>1</distanceauto>
-          <autoplace>1</autoplace>
+          <autoplace>0</autoplace>
           <use3d>0</use3d>
           <width>0</width>
           <height>0</height>
         </hotspot>
         <hotspot>
           <position>
-            <pan>116.806</pan>
-            <tilt>0</tilt>
+            <pan>121.613</pan>
+            <tilt>-4.01</tilt>
             <fov>10</fov>
           </position>
           <next>
@@ -439,7 +439,7 @@
           <target>$fwd</target>
           <distance>0</distance>
           <distanceauto>1</distanceauto>
-          <autoplace>1</autoplace>
+          <autoplace>0</autoplace>
           <use3d>0</use3d>
           <width>0</width>
           <height>0</height>
@@ -596,7 +596,7 @@
           <tilt>-90</tilt>
           <fov>170</fov>
         </flyinstart>
-        <pannorth>-76.4746</pannorth>
+        <pannorth>-81.8288</pannorth>
         <scaletofit>1</scaletofit>
         <projection>rectilinear</projection>
         <flyinprojection>stereo</flyinprojection>
@@ -613,8 +613,8 @@
         <longitude>-8.78386734</longitude>
         <floorplancoordinates>
           <floorplanid>P0</floorplanid>
-          <x>324</x>
-          <y>836</y>
+          <x>334</x>
+          <y>798</y>
           <autoplace>0</autoplace>
         </floorplancoordinates>
       </userdata>
@@ -648,8 +648,8 @@
         </hotspot>
         <hotspot>
           <position>
-            <pan>-326.58</pan>
-            <tilt>-1.15</tilt>
+            <pan>-344.13</pan>
+            <tilt>-2.95</tilt>
             <fov>10</fov>
           </position>
           <next>
@@ -748,8 +748,8 @@
       <hotspots>
         <hotspot>
           <position>
-            <pan>391.275</pan>
-            <tilt>0</tilt>
+            <pan>28.117</pan>
+            <tilt>-0.9</tilt>
             <fov>10</fov>
           </position>
           <next>
@@ -767,7 +767,7 @@
           <target>$fwd</target>
           <distance>0</distance>
           <distanceauto>1</distanceauto>
-          <autoplace>1</autoplace>
+          <autoplace>0</autoplace>
           <use3d>0</use3d>
           <width>0</width>
           <height>0</height>
@@ -1381,7 +1381,7 @@
           <tilt>-90</tilt>
           <fov>170</fov>
         </flyinstart>
-        <pannorth>119.654</pannorth>
+        <pannorth>73.7748</pannorth>
         <scaletofit>1</scaletofit>
         <projection>rectilinear</projection>
         <flyinprojection>stereo</flyinprojection>
@@ -1422,6 +1422,32 @@
           <linktype>node</linktype>
           <linksubtype>unknown</linksubtype>
           <url>{node10}</url>
+          <distance>0</distance>
+          <distanceauto>1</distanceauto>
+          <autoplace>0</autoplace>
+          <use3d>0</use3d>
+          <width>0</width>
+          <height>0</height>
+        </hotspot>
+        <hotspot>
+          <position>
+            <pan>345.514</pan>
+            <tilt>-6.66</tilt>
+            <fov>10</fov>
+          </position>
+          <next>
+            <pan>0</pan>
+            <tilt>0</tilt>
+            <fov>0</fov>
+          </next>
+          <polygon/>
+          <type>point</type>
+          <id>Point02</id>
+          <title>$(ut)</title>
+          <linktype>node</linktype>
+          <linksubtype>unknown</linksubtype>
+          <url>{node14}</url>
+          <target>$fwd</target>
           <distance>0</distance>
           <distanceauto>1</distanceauto>
           <autoplace>0</autoplace>
@@ -1620,6 +1646,358 @@
       <sounds/>
       <id>node13</id>
     </panorama>
+    <panorama>
+      <projectsettings>
+        <userdata>
+          <customprops/>
+        </userdata>
+        <mapgrid>
+          <anchor/>
+        </mapgrid>
+        <floorplangrid>
+          <anchor/>
+        </floorplangrid>
+      </projectsettings>
+      <input>
+        <patch/>
+        <type>auto</type>
+        <filename>../Marzipano/IMG_20260210_135932_00_091_PureShot.jpg</filename>
+        <videotype>equi</videotype>
+        <levelpitch>0</levelpitch>
+        <levelroll>0</levelroll>
+      </input>
+      <viewingparameter>
+        <pan>
+          <start>0</start>
+          <min>0</min>
+          <max>360</max>
+        </pan>
+        <tilt>
+          <start>0</start>
+          <min>-90</min>
+          <max>90</max>
+        </tilt>
+        <fov>
+          <start>100</start>
+          <minunit>pixels</minunit>
+          <max>140</max>
+          <maxfovstereographic>330</maxfovstereographic>
+          <maxfovfisheye>360</maxfovfisheye>
+        </fov>
+        <flyinstart>
+          <pan>0</pan>
+          <tilt>-90</tilt>
+          <fov>170</fov>
+        </flyinstart>
+        <pannorth>28.9376</pannorth>
+        <scaletofit>1</scaletofit>
+        <projection>rectilinear</projection>
+        <flyinprojection>stereo</flyinprojection>
+      </viewingparameter>
+      <userdata>
+        <customprops/>
+        <capturedatetime>2026-02-25T13:31:28</capturedatetime>
+        <datetime>2026:02:10 13:59:33</datetime>
+        <tags>Marzipano</tags>
+        <title>0-Pasillo polos/tecno</title>
+        <altitude>-10000</altitude>
+        <floorplancoordinates>
+          <floorplanid>P0</floorplanid>
+          <x>1462</x>
+          <y>292</y>
+          <autoplace>1</autoplace>
+        </floorplancoordinates>
+        <latitude>42.58999456</latitude>
+        <longitude>-8.78373202</longitude>
+      </userdata>
+      <floorplans/>
+      <hotspots>
+        <hotspot>
+          <position>
+            <pan>166.666</pan>
+            <tilt>0</tilt>
+            <fov>10</fov>
+          </position>
+          <next>
+            <pan>0</pan>
+            <tilt>0</tilt>
+            <fov>0</fov>
+          </next>
+          <polygon/>
+          <type>point</type>
+          <id>Point01</id>
+          <title>$(ut)</title>
+          <linktype>node</linktype>
+          <linksubtype>unknown</linksubtype>
+          <url>{node11}</url>
+          <target>$fwd</target>
+          <distance>0</distance>
+          <distanceauto>1</distanceauto>
+          <autoplace>1</autoplace>
+          <use3d>0</use3d>
+          <width>0</width>
+          <height>0</height>
+        </hotspot>
+        <hotspot>
+          <position>
+            <pan>0.229344</pan>
+            <tilt>-4.44</tilt>
+            <fov>10</fov>
+          </position>
+          <next>
+            <pan>0</pan>
+            <tilt>0</tilt>
+            <fov>0</fov>
+          </next>
+          <polygon/>
+          <type>point</type>
+          <id>Point02</id>
+          <title>$(ut)</title>
+          <linktype>node</linktype>
+          <linksubtype>unknown</linksubtype>
+          <url>{node16}</url>
+          <target>$fwd</target>
+          <distance>0</distance>
+          <distanceauto>1</distanceauto>
+          <autoplace>0</autoplace>
+          <use3d>0</use3d>
+          <width>0</width>
+          <height>0</height>
+        </hotspot>
+        <hotspot>
+          <position>
+            <pan>18.5818</pan>
+            <tilt>-7.92</tilt>
+            <fov>10</fov>
+          </position>
+          <next>
+            <pan>0</pan>
+            <tilt>0</tilt>
+            <fov>0</fov>
+          </next>
+          <polygon/>
+          <type>point</type>
+          <id>Point03</id>
+          <title>$(ut)</title>
+          <linktype>node</linktype>
+          <linksubtype>unknown</linksubtype>
+          <url>{node15}</url>
+          <target>$fwd</target>
+          <distance>0</distance>
+          <distanceauto>1</distanceauto>
+          <autoplace>0</autoplace>
+          <use3d>0</use3d>
+          <width>0</width>
+          <height>0</height>
+        </hotspot>
+      </hotspots>
+      <output/>
+      <streetview/>
+      <streetviewproject/>
+      <ggloudproject/>
+      <sounds/>
+      <id>node14</id>
+    </panorama>
+    <panorama>
+      <projectsettings>
+        <userdata>
+          <customprops/>
+        </userdata>
+        <mapgrid>
+          <anchor/>
+        </mapgrid>
+        <floorplangrid>
+          <anchor/>
+        </floorplangrid>
+      </projectsettings>
+      <input>
+        <patch/>
+        <type>auto</type>
+        <filename>../Marzipano/IMG_20260210_135726_00_090_PureShot.jpg</filename>
+        <videotype>equi</videotype>
+        <levelpitch>0</levelpitch>
+        <levelroll>0</levelroll>
+      </input>
+      <viewingparameter>
+        <pan>
+          <start>0</start>
+          <min>0</min>
+          <max>360</max>
+        </pan>
+        <tilt>
+          <start>0</start>
+          <min>-90</min>
+          <max>90</max>
+        </tilt>
+        <fov>
+          <start>100</start>
+          <minunit>pixels</minunit>
+          <max>140</max>
+          <maxfovstereographic>330</maxfovstereographic>
+          <maxfovfisheye>360</maxfovfisheye>
+        </fov>
+        <flyinstart>
+          <pan>0</pan>
+          <tilt>-90</tilt>
+          <fov>170</fov>
+        </flyinstart>
+        <pannorth>-68.1556</pannorth>
+        <scaletofit>1</scaletofit>
+        <projection>rectilinear</projection>
+        <flyinprojection>stereo</flyinprojection>
+      </viewingparameter>
+      <userdata>
+        <customprops/>
+        <capturedatetime>2026-02-25T13:31:26</capturedatetime>
+        <datetime>2026:02:10 13:57:26</datetime>
+        <tags>Marzipano</tags>
+        <title>0-Polos creativos</title>
+        <altitude>-10000</altitude>
+        <floorplancoordinates>
+          <floorplanid>P0</floorplanid>
+          <x>1488</x>
+          <y>216</y>
+          <autoplace>1</autoplace>
+        </floorplancoordinates>
+        <latitude>42.59002584</latitude>
+        <longitude>-8.78376303</longitude>
+      </userdata>
+      <floorplans/>
+      <hotspots>
+        <hotspot>
+          <position>
+            <pan>-156.381</pan>
+            <tilt>-7.31</tilt>
+            <fov>10</fov>
+          </position>
+          <next>
+            <pan>0</pan>
+            <tilt>0</tilt>
+            <fov>0</fov>
+          </next>
+          <polygon/>
+          <type>point</type>
+          <id>Point01</id>
+          <title>$(ut)</title>
+          <linktype>node</linktype>
+          <linksubtype>unknown</linksubtype>
+          <url>{node14}</url>
+          <target>$fwd</target>
+          <distance>0</distance>
+          <distanceauto>1</distanceauto>
+          <autoplace>0</autoplace>
+          <use3d>0</use3d>
+          <width>0</width>
+          <height>0</height>
+        </hotspot>
+      </hotspots>
+      <output/>
+      <streetview/>
+      <streetviewproject/>
+      <ggloudproject/>
+      <sounds/>
+      <id>node15</id>
+    </panorama>
+    <panorama>
+      <projectsettings>
+        <userdata>
+          <customprops/>
+        </userdata>
+        <mapgrid>
+          <anchor/>
+        </mapgrid>
+        <floorplangrid>
+          <anchor/>
+        </floorplangrid>
+      </projectsettings>
+      <input>
+        <patch/>
+        <type>auto</type>
+        <filename>../Marzipano/IMG_20260210_145242_00_126_PureShot.jpg</filename>
+        <videotype>equi</videotype>
+        <levelpitch>0</levelpitch>
+        <levelroll>0</levelroll>
+      </input>
+      <viewingparameter>
+        <pan>
+          <start>0</start>
+          <min>0</min>
+          <max>360</max>
+        </pan>
+        <tilt>
+          <start>0</start>
+          <min>-90</min>
+          <max>90</max>
+        </tilt>
+        <fov>
+          <start>100</start>
+          <minunit>pixels</minunit>
+          <max>140</max>
+          <maxfovstereographic>330</maxfovstereographic>
+          <maxfovfisheye>360</maxfovfisheye>
+        </fov>
+        <flyinstart>
+          <pan>0</pan>
+          <tilt>-90</tilt>
+          <fov>170</fov>
+        </flyinstart>
+        <pannorth>161.978</pannorth>
+        <scaletofit>1</scaletofit>
+        <projection>rectilinear</projection>
+        <flyinprojection>stereo</flyinprojection>
+      </viewingparameter>
+      <userdata>
+        <customprops/>
+        <capturedatetime>2026-02-25T13:32:36</capturedatetime>
+        <datetime>2026:02:10 14:52:42</datetime>
+        <tags>Marzipano</tags>
+        <title>0-Tecnoloxía</title>
+        <altitude>-10000</altitude>
+        <floorplancoordinates>
+          <floorplanid>P0</floorplanid>
+          <x>1672</x>
+          <y>218</y>
+          <autoplace>1</autoplace>
+        </floorplancoordinates>
+        <latitude>42.59009796</latitude>
+        <longitude>-8.78369289</longitude>
+      </userdata>
+      <floorplans/>
+      <hotspots>
+        <hotspot>
+          <position>
+            <pan>164.432</pan>
+            <tilt>0</tilt>
+            <fov>10</fov>
+          </position>
+          <next>
+            <pan>0</pan>
+            <tilt>0</tilt>
+            <fov>0</fov>
+          </next>
+          <polygon/>
+          <type>point</type>
+          <id>Point01</id>
+          <title>$(ut)</title>
+          <linktype>node</linktype>
+          <linksubtype>unknown</linksubtype>
+          <url>{node14}</url>
+          <target>$fwd</target>
+          <distance>0</distance>
+          <distanceauto>1</distanceauto>
+          <autoplace>1</autoplace>
+          <use3d>0</use3d>
+          <width>0</width>
+          <height>0</height>
+        </hotspot>
+      </hotspots>
+      <output/>
+      <streetview/>
+      <streetviewproject/>
+      <ggloudproject/>
+      <sounds/>
+      <id>node16</id>
+    </panorama>
   </tour>
   <panorama>
     <id>master</id>
@@ -1680,11 +2058,11 @@
         <hotspottext/>
         <hotspotstyle/>
         <webvr>
-          <enabled>1</enabled>
+          <enabled>0</enabled>
         </webvr>
         <tilesize>1520</tilesize>
         <filename>output/pano.xml</filename>
-        <skinfile>cardboard.ggsk</skinfile>
+        <skinfile>silhouette_cardboard.ggsk</skinfile>
         <skinconfiguration/>
         <skintablesconfiguration/>
         <skincolorsconfiguration>

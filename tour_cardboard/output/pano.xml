@@ -1,358 +1,439 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<tour apprev="17904" start="node1" appversion="6.1.3">
+<tour apprev="17904" appversion="6.1.3" start="node1">
   <panorama hideabout="1" id="node1">
-    <input levelingroll="0" leveltileurl="tiles/node1/cf_%c/l_%l/c_%x/tile_%y.jpg" leveltilesize="510" height="1520" levelbias="0.400" width="1520" levelingpitch="0" overlap="1" levelbiashidpi="1.000">
-      <level height="1520" width="1520" predecode="0" preload="0"/>
-      <level height="760" width="760" predecode="0" preload="0"/>
-      <level height="380" width="380" predecode="1" preload="1"/>
-      <preview color="0x808080" strip="1"/>
+    <input levelingpitch="0" levelingroll="0" height="1520" levelbias="0.400" width="1520" leveltileurl="tiles/node1/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbiashidpi="1.000" overlap="1" leveltilesize="510">
+      <level height="1520" predecode="0" width="1520" preload="0"/>
+      <level height="760" predecode="0" width="760" preload="0"/>
+      <level height="380" predecode="1" width="380" preload="1"/>
+      <preview strip="1" color="0x808080"/>
     </input>
     <view pannorth="125.902" fovmode="0">
-      <start projection="4" fov="100" pan="0" tilt="0"/>
-      <flyin projection="9" fov="170" pan="0" tilt="-90"/>
+      <start projection="4" pan="0" tilt="0" fov="100"/>
+      <flyin projection="9" pan="0" tilt="-90" fov="170"/>
       <min fovpixel="2" pan="0" tilt="-90"/>
-      <max fovfisheye="360" fov="120" pan="360" fovstereographic="330" tilt="90" scaletofit="1"/>
+      <max scaletofit="1" fovstereographic="330" pan="360" tilt="90" fov="120" fovfisheye="360"/>
     </view>
-    <userdata title="0-Entrada centro" description="" heading="125.902" customnodeid="" datetime="2026:02:10 15:56:53" source="" author="" latitude="42.58960796" longitude="-8.78420812" comment="" tags="Marzipano" info="" nodeid="node1" copyright="">
-      <mapcoords y_floorplan_percent="15.6627" x_floorplan_percent="21.2022" mapid="P0" x="0.532837" y="-0.214233"/>
+    <userdata author="" longitude="-8.78420812" nodeid="node1" info="" title="0-Entrada centro" customnodeid="" heading="125.902" copyright="" source="" description="" tags="Marzipano" datetime="2026:02:10 15:56:53" latitude="42.58960796" comment="">
+      <mapcoords y="-0.214233" mapid="P0" x="0.532837" x_floorplan_percent="21.2022" y_floorplan_percent="15.6627"/>
     </userdata>
     <hotspots height="20" width="180" wordwrap="1">
-      <label border="1" enabled="1" background="1" backgroundcolor="0xffffff" borderalpha="1" height="20" bordercolor="0x000000" backgroundalpha="1" width="180" borderradius="1" textcolor="0x000000" textalpha="1" wordwrap="1"/>
-      <polystyle backgroundcolor="0x0000ff" borderalpha="1" bordercolor="0x0000ff" backgroundalpha="0.25098" mode="0" handcursor="1"/>
-      <hotspot title="Web IES Armando Cotarelo Valledor" description="" target="_blank" pan="-350.22" tilt="37.53" url="https://www.iescotarelo.es/" skinid="ht_url" id="Point02"/>
-      <hotspot title="0-Hall entrada" description="" target="$fwd" pan="-6.38474" tilt="0" url="{node2}" distance="14.5115" skinid="ht_node" id="Point01"/>
+      <label backgroundalpha="1" height="20" bordercolor="0x000000" background="1" width="180" textcolor="0x000000" border="1" wordwrap="1" enabled="1" borderalpha="1" borderradius="1" backgroundcolor="0xffffff" textalpha="1"/>
+      <polystyle backgroundalpha="0.25098" bordercolor="0x0000ff" handcursor="1" mode="0" borderalpha="1" backgroundcolor="0x0000ff"/>
+      <hotspot title="Web IES Armando Cotarelo Valledor" id="Point02" description="" skinid="ht_url" url="https://www.iescotarelo.es/" pan="-350.22" tilt="37.53" target="_blank"/>
+      <hotspot distance="14.5115" title="0-Hall entrada" id="Point01" description="" skinid="ht_node" url="{node2}" pan="-6.38474" tilt="0" target="$fwd"/>
     </hotspots>
     <media/>
-    <transition zoomfov="20" blendcolor="0x000000" softedge="0" enabled="1" zoomout="0" zoomoutpause="1" blendtime="1" zoomin="0" type="crossdissolve" zoomspeed="2"/>
-    <animation useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
-    <control simulatemass="1" sensitivity="8" invertwheel="0" speedwheel="1" lockedkeyboardzoom="0" contextprojections="0" hideabout="1" lockedwheel="0" dblclickfullscreen="0" rubberband="0" invertcontrol="1" lockedmouse="0" lockedkeyboard="0" contextfullscreen="1"/>
+    <transition softedge="0" zoomfov="20" blendcolor="0x000000" type="crossdissolve" zoomout="0" zoomoutpause="1" enabled="1" zoomin="0" zoomspeed="2" blendtime="1"/>
+    <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0"/>
+    <control hideabout="1" simulatemass="1" lockedkeyboard="0" rubberband="0" lockedkeyboardzoom="0" speedwheel="1" invertwheel="0" invertcontrol="1" contextfullscreen="1" contextprojections="0" lockedmouse="0" dblclickfullscreen="0" sensitivity="8" lockedwheel="0"/>
   </panorama>
   <panorama hideabout="1" id="node2">
-    <input levelingroll="0" leveltileurl="tiles/node2/cf_%c/l_%l/c_%x/tile_%y.jpg" leveltilesize="510" height="1520" levelbias="0.400" width="1520" levelingpitch="0" overlap="1" levelbiashidpi="1.000">
-      <level height="1520" width="1520" predecode="0" preload="0"/>
-      <level height="760" width="760" predecode="0" preload="0"/>
-      <level height="380" width="380" predecode="1" preload="1"/>
-      <preview color="0x808080" strip="1"/>
+    <input levelingpitch="0" levelingroll="0" height="1520" levelbias="0.400" width="1520" leveltileurl="tiles/node2/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbiashidpi="1.000" overlap="1" leveltilesize="510">
+      <level height="1520" predecode="0" width="1520" preload="0"/>
+      <level height="760" predecode="0" width="760" preload="0"/>
+      <level height="380" predecode="1" width="380" preload="1"/>
+      <preview strip="1" color="0x808080"/>
     </input>
-    <view pannorth="116.056" fovmode="0">
-      <start projection="4" fov="100" pan="0" tilt="0"/>
-      <flyin projection="9" fov="170" pan="0" tilt="-90"/>
+    <view pannorth="102.3" fovmode="0">
+      <start projection="4" pan="0" tilt="0" fov="100"/>
+      <flyin projection="9" pan="0" tilt="-90" fov="170"/>
       <min fovpixel="2" pan="0" tilt="-90"/>
-      <max fovfisheye="360" fov="120" pan="360" fovstereographic="330" tilt="90" scaletofit="1"/>
+      <max scaletofit="1" fovstereographic="330" pan="360" tilt="90" fov="120" fovfisheye="360"/>
     </view>
-    <userdata title="0-Hall entrada" description="" heading="116.056" customnodeid="" datetime="2026:02:10 14:07:45" source="" author="" latitude="42.58951130" longitude="-8.78408902" comment="" tags="Marzipano" info="" nodeid="node2" copyright="">
-      <mapcoords y_floorplan_percent="38.9558" x_floorplan_percent="17.7049" mapid="P0" x="0.444946" y="-0.532837"/>
+    <userdata author="" longitude="-8.78408902" nodeid="node2" info="" title="0-Hall entrada" customnodeid="" heading="102.3" copyright="" source="" description="" tags="Marzipano" datetime="2026:02:10 14:07:45" latitude="42.58951130" comment="">
+      <mapcoords y="-0.615234" mapid="P0" x="0.516357" x_floorplan_percent="20.5464" y_floorplan_percent="44.9799"/>
     </userdata>
     <hotspots height="20" width="180" wordwrap="1">
-      <label border="1" enabled="1" background="1" backgroundcolor="0xffffff" borderalpha="1" height="20" bordercolor="0x000000" backgroundalpha="1" width="180" borderradius="1" textcolor="0x000000" textalpha="1" wordwrap="1"/>
-      <polystyle backgroundcolor="0x0000ff" borderalpha="1" bordercolor="0x0000ff" backgroundalpha="0.25098" mode="0" handcursor="1"/>
-      <hotspot title="0 - Secretaria" description="" target="$fwd" pan="-18.609" tilt="0" url="{node5}" distance="22.2994" skinid="ht_node" id="Point01"/>
-      <hotspot title="0-Ascensor" description="" target="$fwd" pan="53.488" tilt="0" url="{node3}" distance="8.95685" skinid="ht_node" id="Point02"/>
-      <hotspot title="0-Entrada centro" description="" target="$fwd" pan="158.428" tilt="0" url="{node1}" distance="14.5115" skinid="ht_node" id="Point03"/>
-      <hotspot title="0-Cafetería" description="" target="" pan="-156.67" tilt="-6.48" url="{node7}" distance="7.87173" skinid="ht_node" id="Point04"/>
+      <label backgroundalpha="1" height="20" bordercolor="0x000000" background="1" width="180" textcolor="0x000000" border="1" wordwrap="1" enabled="1" borderalpha="1" borderradius="1" backgroundcolor="0xffffff" textalpha="1"/>
+      <polystyle backgroundalpha="0.25098" bordercolor="0x0000ff" handcursor="1" mode="0" borderalpha="1" backgroundcolor="0x0000ff"/>
+      <hotspot distance="22.2994" title="0 - Secretaria" id="Point01" description="" skinid="ht_node" url="{node5}" pan="-18.609" tilt="0" target="$fwd"/>
+      <hotspot distance="8.95685" title="0-Ascensor" id="Point02" description="" skinid="ht_node" url="{node3}" pan="67.3959" tilt="-3.04" target="$fwd"/>
+      <hotspot distance="14.5115" title="0-Entrada centro" id="Point03" description="" skinid="ht_node" url="{node1}" pan="158.428" tilt="0" target="$fwd"/>
+      <hotspot distance="7.87173" title="0-Cafetería" id="Point04" description="" skinid="ht_node" url="{node7}" pan="-156.67" tilt="-6.48" target=""/>
     </hotspots>
     <media/>
-    <transition zoomfov="20" blendcolor="0x000000" softedge="0" enabled="1" zoomout="0" zoomoutpause="1" blendtime="1" zoomin="0" type="crossdissolve" zoomspeed="2"/>
-    <animation useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
-    <control simulatemass="1" sensitivity="8" invertwheel="0" speedwheel="1" lockedkeyboardzoom="0" contextprojections="0" hideabout="1" lockedwheel="0" dblclickfullscreen="0" rubberband="0" invertcontrol="1" lockedmouse="0" lockedkeyboard="0" contextfullscreen="1"/>
+    <transition softedge="0" zoomfov="20" blendcolor="0x000000" type="crossdissolve" zoomout="0" zoomoutpause="1" enabled="1" zoomin="0" zoomspeed="2" blendtime="1"/>
+    <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0"/>
+    <control hideabout="1" simulatemass="1" lockedkeyboard="0" rubberband="0" lockedkeyboardzoom="0" speedwheel="1" invertwheel="0" invertcontrol="1" contextfullscreen="1" contextprojections="0" lockedmouse="0" dblclickfullscreen="0" sensitivity="8" lockedwheel="0"/>
   </panorama>
   <panorama hideabout="1" id="node3">
-    <input levelingroll="0" leveltileurl="tiles/node3/cf_%c/l_%l/c_%x/tile_%y.jpg" leveltilesize="510" height="1520" levelbias="0.400" width="1520" levelingpitch="0" overlap="1" levelbiashidpi="1.000">
-      <level height="1520" width="1520" predecode="0" preload="0"/>
-      <level height="760" width="760" predecode="0" preload="0"/>
-      <level height="380" width="380" predecode="1" preload="1"/>
-      <preview color="0x808080" strip="1"/>
+    <input levelingpitch="0" levelingroll="0" height="1520" levelbias="0.400" width="1520" leveltileurl="tiles/node3/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbiashidpi="1.000" overlap="1" leveltilesize="510">
+      <level height="1520" predecode="0" width="1520" preload="0"/>
+      <level height="760" predecode="0" width="760" preload="0"/>
+      <level height="380" predecode="1" width="380" preload="1"/>
+      <preview strip="1" color="0x808080"/>
     </input>
     <view pannorth="-5.96714" fovmode="0">
-      <start projection="4" fov="100" pan="0" tilt="0"/>
-      <flyin projection="9" fov="170" pan="0" tilt="-90"/>
+      <start projection="4" pan="0" tilt="0" fov="100"/>
+      <flyin projection="9" pan="0" tilt="-90" fov="170"/>
       <min fovpixel="2" pan="0" tilt="-90"/>
-      <max fovfisheye="360" fov="120" pan="360" fovstereographic="330" tilt="90" scaletofit="1"/>
+      <max scaletofit="1" fovstereographic="330" pan="360" tilt="90" fov="120" fovfisheye="360"/>
     </view>
-    <userdata title="0-Ascensor" description="" heading="-5.96714" customnodeid="" datetime="2026:02:10 14:06:22" source="" author="" latitude="42.58952127" longitude="-8.78398045" comment="" tags="Marzipano" info="" nodeid="node3" copyright="">
-      <mapcoords y_floorplan_percent="43.3735" x_floorplan_percent="26.2295" mapid="P0" x="0.65918" y="-0.593262"/>
+    <userdata author="" longitude="-8.78398045" nodeid="node3" info="" title="0-Ascensor" customnodeid="" heading="-5.96714" copyright="" source="" description="" tags="Marzipano" datetime="2026:02:10 14:06:22" latitude="42.58952127" comment="">
+      <mapcoords y="-0.596008" mapid="P0" x="0.697632" x_floorplan_percent="27.7596" y_floorplan_percent="43.5743"/>
     </userdata>
     <hotspots height="20" width="180" wordwrap="1">
-      <label border="1" enabled="1" background="1" backgroundcolor="0xffffff" borderalpha="1" height="20" bordercolor="0x000000" backgroundalpha="1" width="180" borderradius="1" textcolor="0x000000" textalpha="1" wordwrap="1"/>
-      <polystyle backgroundcolor="0x0000ff" borderalpha="1" bordercolor="0x0000ff" backgroundalpha="0.25098" mode="0" handcursor="1"/>
-      <hotspot title="0-Biblioteca" description="" target="$fwd" pan="-14.4657" tilt="0" url="{node4}" distance="12.9936" skinid="ht_node" id="Point01"/>
-      <hotspot title="0-Pasillo" description="" target="$fwd" pan="-41.2732" tilt="0" url="{node6}" distance="31.1416" skinid="ht_node" id="Point02"/>
-      <hotspot title="0-Hall entrada" description="" target="$fwd" pan="116.806" tilt="0" url="{node2}" distance="8.95685" skinid="ht_node" id="Point03"/>
+      <label backgroundalpha="1" height="20" bordercolor="0x000000" background="1" width="180" textcolor="0x000000" border="1" wordwrap="1" enabled="1" borderalpha="1" borderradius="1" backgroundcolor="0xffffff" textalpha="1"/>
+      <polystyle backgroundalpha="0.25098" bordercolor="0x0000ff" handcursor="1" mode="0" borderalpha="1" backgroundcolor="0x0000ff"/>
+      <hotspot distance="12.9936" title="0-Biblioteca" id="Point01" description="" skinid="ht_node" url="{node4}" pan="345.587" tilt="-2.98" target="$fwd"/>
+      <hotspot distance="31.1416" title="0-Pasillo" id="Point02" description="" skinid="ht_node" url="{node6}" pan="-41.941" tilt="-1.18" target="$fwd"/>
+      <hotspot distance="8.95685" title="0-Hall entrada" id="Point03" description="" skinid="ht_node" url="{node2}" pan="121.613" tilt="-4.01" target="$fwd"/>
     </hotspots>
     <media/>
-    <transition zoomfov="20" blendcolor="0x000000" softedge="0" enabled="1" zoomout="0" zoomoutpause="1" blendtime="1" zoomin="0" type="crossdissolve" zoomspeed="2"/>
-    <animation useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
-    <control simulatemass="1" sensitivity="8" invertwheel="0" speedwheel="1" lockedkeyboardzoom="0" contextprojections="0" hideabout="1" lockedwheel="0" dblclickfullscreen="0" rubberband="0" invertcontrol="1" lockedmouse="0" lockedkeyboard="0" contextfullscreen="1"/>
+    <transition softedge="0" zoomfov="20" blendcolor="0x000000" type="crossdissolve" zoomout="0" zoomoutpause="1" enabled="1" zoomin="0" zoomspeed="2" blendtime="1"/>
+    <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0"/>
+    <control hideabout="1" simulatemass="1" lockedkeyboard="0" rubberband="0" lockedkeyboardzoom="0" speedwheel="1" invertwheel="0" invertcontrol="1" contextfullscreen="1" contextprojections="0" lockedmouse="0" dblclickfullscreen="0" sensitivity="8" lockedwheel="0"/>
   </panorama>
   <panorama hideabout="1" id="node4">
-    <input levelingroll="0" leveltileurl="tiles/node4/cf_%c/l_%l/c_%x/tile_%y.jpg" leveltilesize="510" height="1520" levelbias="0.400" width="1520" levelingpitch="0" overlap="1" levelbiashidpi="1.000">
-      <level height="1520" width="1520" predecode="0" preload="0"/>
-      <level height="760" width="760" predecode="0" preload="0"/>
-      <level height="380" width="380" predecode="1" preload="1"/>
-      <preview color="0x808080" strip="1"/>
+    <input levelingpitch="0" levelingroll="0" height="1520" levelbias="0.400" width="1520" leveltileurl="tiles/node4/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbiashidpi="1.000" overlap="1" leveltilesize="510">
+      <level height="1520" predecode="0" width="1520" preload="0"/>
+      <level height="760" predecode="0" width="760" preload="0"/>
+      <level height="380" predecode="1" width="380" preload="1"/>
+      <preview strip="1" color="0x808080"/>
     </input>
     <view pannorth="221.414" fovmode="0">
-      <start projection="4" fov="100" pan="0" tilt="0"/>
-      <flyin projection="9" fov="170" pan="0" tilt="-90"/>
+      <start projection="4" pan="0" tilt="0" fov="100"/>
+      <flyin projection="9" pan="0" tilt="-90" fov="170"/>
       <min fovpixel="2" pan="0" tilt="-90"/>
-      <max fovfisheye="360" fov="120" pan="360" fovstereographic="330" tilt="90" scaletofit="1"/>
+      <max scaletofit="1" fovstereographic="330" pan="360" tilt="90" fov="120" fovfisheye="360"/>
     </view>
-    <userdata title="0-Biblioteca" description="" heading="221.414" customnodeid="" datetime="2026:02:10 14:05:38" source="" author="" latitude="42.58963278" longitude="-8.78402790" comment="" tags="Marzipano" info="" nodeid="node4" copyright="">
-      <mapcoords y_floorplan_percent="35.3414" x_floorplan_percent="32.1311" mapid="P0" x="0.807495" y="-0.483398"/>
+    <userdata author="" longitude="-8.78402790" nodeid="node4" info="" title="0-Biblioteca" customnodeid="" heading="221.414" copyright="" source="" description="" tags="Marzipano" datetime="2026:02:10 14:05:38" latitude="42.58963278" comment="">
+      <mapcoords y="-0.483398" mapid="P0" x="0.807495" x_floorplan_percent="32.1311" y_floorplan_percent="35.3414"/>
     </userdata>
     <hotspots height="20" width="180" wordwrap="1">
-      <label border="1" enabled="1" background="1" backgroundcolor="0xffffff" borderalpha="1" height="20" bordercolor="0x000000" backgroundalpha="1" width="180" borderradius="1" textcolor="0x000000" textalpha="1" wordwrap="1"/>
-      <polystyle backgroundcolor="0x0000ff" borderalpha="1" bordercolor="0x0000ff" backgroundalpha="0.25098" mode="0" handcursor="1"/>
-      <hotspot title="0-Ascensor" description="" target="$fwd" pan="62.7479" tilt="0" url="{node3}" distance="12.9936" skinid="ht_node" id="Point01"/>
+      <label backgroundalpha="1" height="20" bordercolor="0x000000" background="1" width="180" textcolor="0x000000" border="1" wordwrap="1" enabled="1" borderalpha="1" borderradius="1" backgroundcolor="0xffffff" textalpha="1"/>
+      <polystyle backgroundalpha="0.25098" bordercolor="0x0000ff" handcursor="1" mode="0" borderalpha="1" backgroundcolor="0x0000ff"/>
+      <hotspot distance="12.9936" title="0-Ascensor" id="Point01" description="" skinid="ht_node" url="{node3}" pan="62.7479" tilt="0" target="$fwd"/>
     </hotspots>
     <media/>
-    <transition zoomfov="20" blendcolor="0x000000" softedge="0" enabled="1" zoomout="0" zoomoutpause="1" blendtime="1" zoomin="0" type="crossdissolve" zoomspeed="2"/>
-    <animation useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
-    <control simulatemass="1" sensitivity="8" invertwheel="0" speedwheel="1" lockedkeyboardzoom="0" contextprojections="0" hideabout="1" lockedwheel="0" dblclickfullscreen="0" rubberband="0" invertcontrol="1" lockedmouse="0" lockedkeyboard="0" contextfullscreen="1"/>
+    <transition softedge="0" zoomfov="20" blendcolor="0x000000" type="crossdissolve" zoomout="0" zoomoutpause="1" enabled="1" zoomin="0" zoomspeed="2" blendtime="1"/>
+    <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0"/>
+    <control hideabout="1" simulatemass="1" lockedkeyboard="0" rubberband="0" lockedkeyboardzoom="0" speedwheel="1" invertwheel="0" invertcontrol="1" contextfullscreen="1" contextprojections="0" lockedmouse="0" dblclickfullscreen="0" sensitivity="8" lockedwheel="0"/>
   </panorama>
   <panorama hideabout="1" id="node5">
-    <input levelingroll="0" leveltileurl="tiles/node5/cf_%c/l_%l/c_%x/tile_%y.jpg" leveltilesize="510" height="1520" levelbias="0.400" width="1520" levelingpitch="0" overlap="1" levelbiashidpi="1.000">
-      <level height="1520" width="1520" predecode="0" preload="0"/>
-      <level height="760" width="760" predecode="0" preload="0"/>
-      <level height="380" width="380" predecode="1" preload="1"/>
-      <preview color="0x808080" strip="1"/>
+    <input levelingpitch="0" levelingroll="0" height="1520" levelbias="0.400" width="1520" leveltileurl="tiles/node5/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbiashidpi="1.000" overlap="1" leveltilesize="510">
+      <level height="1520" predecode="0" width="1520" preload="0"/>
+      <level height="760" predecode="0" width="760" preload="0"/>
+      <level height="380" predecode="1" width="380" preload="1"/>
+      <preview strip="1" color="0x808080"/>
     </input>
-    <view pannorth="-76.4746" fovmode="0">
-      <start projection="4" fov="100" pan="0" tilt="0"/>
-      <flyin projection="9" fov="170" pan="0" tilt="-90"/>
+    <view pannorth="-81.8288" fovmode="0">
+      <start projection="4" pan="0" tilt="0" fov="100"/>
+      <flyin projection="9" pan="0" tilt="-90" fov="170"/>
       <min fovpixel="2" pan="0" tilt="-90"/>
-      <max fovfisheye="360" fov="120" pan="360" fovstereographic="330" tilt="90" scaletofit="1"/>
+      <max scaletofit="1" fovstereographic="330" pan="360" tilt="90" fov="120" fovfisheye="360"/>
     </view>
-    <userdata title="0 - Secretaria" description="" heading="-76.4746" customnodeid="" datetime="2026:02:10 14:09:19" source="" author="" latitude="42.58939476" longitude="-8.78386734" comment="" tags="Marzipano" info="" nodeid="node5" copyright="">
-      <mapcoords y_floorplan_percent="83.9357" x_floorplan_percent="17.7049" mapid="P0" x="0.444946" y="-1.14807"/>
+    <userdata author="" longitude="-8.78386734" nodeid="node5" info="" title="0 - Secretaria" customnodeid="" heading="-81.8288" copyright="" source="" description="" tags="Marzipano" datetime="2026:02:10 14:09:19" latitude="42.58939476" comment="">
+      <mapcoords y="-1.09589" mapid="P0" x="0.458679" x_floorplan_percent="18.2514" y_floorplan_percent="80.1205"/>
     </userdata>
     <hotspots height="20" width="180" wordwrap="1">
-      <label border="1" enabled="1" background="1" backgroundcolor="0xffffff" borderalpha="1" height="20" bordercolor="0x000000" backgroundalpha="1" width="180" borderradius="1" textcolor="0x000000" textalpha="1" wordwrap="1"/>
-      <polystyle backgroundcolor="0x0000ff" borderalpha="1" bordercolor="0x0000ff" backgroundalpha="0.25098" mode="0" handcursor="1"/>
-      <hotspot title="0-Hall entrada" description="" target="$fwd" pan="-25.7987" tilt="0" url="{node2}" distance="22.2994" skinid="ht_node" id="Point01"/>
-      <hotspot title="0-Salón de Actos" description="" target="" pan="-326.58" tilt="-1.15" url="{node8}" distance="9.87172" skinid="ht_node" id="Point02"/>
+      <label backgroundalpha="1" height="20" bordercolor="0x000000" background="1" width="180" textcolor="0x000000" border="1" wordwrap="1" enabled="1" borderalpha="1" borderradius="1" backgroundcolor="0xffffff" textalpha="1"/>
+      <polystyle backgroundalpha="0.25098" bordercolor="0x0000ff" handcursor="1" mode="0" borderalpha="1" backgroundcolor="0x0000ff"/>
+      <hotspot distance="22.2994" title="0-Hall entrada" id="Point01" description="" skinid="ht_node" url="{node2}" pan="-25.7987" tilt="0" target="$fwd"/>
+      <hotspot distance="9.87172" title="0-Salón de Actos" id="Point02" description="" skinid="ht_node" url="{node8}" pan="-344.13" tilt="-2.95" target=""/>
     </hotspots>
     <media/>
-    <transition zoomfov="20" blendcolor="0x000000" softedge="0" enabled="1" zoomout="0" zoomoutpause="1" blendtime="1" zoomin="0" type="crossdissolve" zoomspeed="2"/>
-    <animation useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
-    <control simulatemass="1" sensitivity="8" invertwheel="0" speedwheel="1" lockedkeyboardzoom="0" contextprojections="0" hideabout="1" lockedwheel="0" dblclickfullscreen="0" rubberband="0" invertcontrol="1" lockedmouse="0" lockedkeyboard="0" contextfullscreen="1"/>
+    <transition softedge="0" zoomfov="20" blendcolor="0x000000" type="crossdissolve" zoomout="0" zoomoutpause="1" enabled="1" zoomin="0" zoomspeed="2" blendtime="1"/>
+    <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0"/>
+    <control hideabout="1" simulatemass="1" lockedkeyboard="0" rubberband="0" lockedkeyboardzoom="0" speedwheel="1" invertwheel="0" invertcontrol="1" contextfullscreen="1" contextprojections="0" lockedmouse="0" dblclickfullscreen="0" sensitivity="8" lockedwheel="0"/>
   </panorama>
   <panorama hideabout="1" id="node6">
-    <input levelingroll="0" leveltileurl="tiles/node6/cf_%c/l_%l/c_%x/tile_%y.jpg" leveltilesize="510" height="1520" levelbias="0.400" width="1520" levelingpitch="0" overlap="1" levelbiashidpi="1.000">
-      <level height="1520" width="1520" predecode="0" preload="0"/>
-      <level height="760" width="760" predecode="0" preload="0"/>
-      <level height="380" width="380" predecode="1" preload="1"/>
-      <preview color="0x808080" strip="1"/>
+    <input levelingpitch="0" levelingroll="0" height="1520" levelbias="0.400" width="1520" leveltileurl="tiles/node6/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbiashidpi="1.000" overlap="1" leveltilesize="510">
+      <level height="1520" predecode="0" width="1520" preload="0"/>
+      <level height="760" predecode="0" width="760" preload="0"/>
+      <level height="380" predecode="1" width="380" preload="1"/>
+      <preview strip="1" color="0x808080"/>
     </input>
     <view pannorth="246.581" fovmode="0">
-      <start projection="4" fov="100" pan="0" tilt="0"/>
-      <flyin projection="9" fov="170" pan="0" tilt="-90"/>
+      <start projection="4" pan="0" tilt="0" fov="100"/>
+      <flyin projection="9" pan="0" tilt="-90" fov="170"/>
       <min fovpixel="2" pan="0" tilt="-90"/>
-      <max fovfisheye="360" fov="120" pan="360" fovstereographic="330" tilt="90" scaletofit="1"/>
+      <max scaletofit="1" fovstereographic="330" pan="360" tilt="90" fov="120" fovfisheye="360"/>
     </view>
-    <userdata title="0-Pasillo" description="" heading="246.581" customnodeid="" datetime="2026:02:10 14:04:06" source="" author="" latitude="42.58976977" longitude="-8.78380501" comment="" tags="Marzipano" info="" nodeid="node6" copyright="">
-      <mapcoords y_floorplan_percent="46.988" x_floorplan_percent="55.5191" mapid="P0" x="1.39526" y="-0.6427"/>
+    <userdata author="" longitude="-8.78380501" nodeid="node6" info="" title="0-Pasillo" customnodeid="" heading="246.581" copyright="" source="" description="" tags="Marzipano" datetime="2026:02:10 14:04:06" latitude="42.58976977" comment="">
+      <mapcoords y="-0.6427" mapid="P0" x="1.39526" x_floorplan_percent="55.5191" y_floorplan_percent="46.988"/>
     </userdata>
     <hotspots height="20" width="180" wordwrap="1">
-      <label border="1" enabled="1" background="1" backgroundcolor="0xffffff" borderalpha="1" height="20" bordercolor="0x000000" backgroundalpha="1" width="180" borderradius="1" textcolor="0x000000" textalpha="1" wordwrap="1"/>
-      <polystyle backgroundcolor="0x0000ff" borderalpha="1" bordercolor="0x0000ff" backgroundalpha="0.25098" mode="0" handcursor="1"/>
-      <hotspot title="0-Ascensor" description="" target="$fwd" pan="391.275" tilt="0" url="{node3}" distance="31.1416" skinid="ht_node" id="Point01"/>
-      <hotspot title="0-Pregiro planta baja" description="" target="" pan="-175.99" tilt="-3.12" url="{node9}" distance="13.7504" skinid="ht_node" id="Point02"/>
-      <hotspot title="0-Giro planta baja" description="" target="" pan="-138.29" tilt="-3.37" url="{node10}" distance="13.6363" skinid="ht_node" id="Point03"/>
+      <label backgroundalpha="1" height="20" bordercolor="0x000000" background="1" width="180" textcolor="0x000000" border="1" wordwrap="1" enabled="1" borderalpha="1" borderradius="1" backgroundcolor="0xffffff" textalpha="1"/>
+      <polystyle backgroundalpha="0.25098" bordercolor="0x0000ff" handcursor="1" mode="0" borderalpha="1" backgroundcolor="0x0000ff"/>
+      <hotspot distance="31.1416" title="0-Ascensor" id="Point01" description="" skinid="ht_node" url="{node3}" pan="28.117" tilt="-0.9" target="$fwd"/>
+      <hotspot distance="13.7504" title="0-Pregiro planta baja" id="Point02" description="" skinid="ht_node" url="{node9}" pan="-175.99" tilt="-3.12" target=""/>
+      <hotspot distance="13.6363" title="0-Giro planta baja" id="Point03" description="" skinid="ht_node" url="{node10}" pan="-138.29" tilt="-3.37" target=""/>
     </hotspots>
     <media/>
-    <transition zoomfov="20" blendcolor="0x000000" softedge="0" enabled="1" zoomout="0" zoomoutpause="1" blendtime="1" zoomin="0" type="crossdissolve" zoomspeed="2"/>
-    <animation useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
-    <control simulatemass="1" sensitivity="8" invertwheel="0" speedwheel="1" lockedkeyboardzoom="0" contextprojections="0" hideabout="1" lockedwheel="0" dblclickfullscreen="0" rubberband="0" invertcontrol="1" lockedmouse="0" lockedkeyboard="0" contextfullscreen="1"/>
+    <transition softedge="0" zoomfov="20" blendcolor="0x000000" type="crossdissolve" zoomout="0" zoomoutpause="1" enabled="1" zoomin="0" zoomspeed="2" blendtime="1"/>
+    <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0"/>
+    <control hideabout="1" simulatemass="1" lockedkeyboard="0" rubberband="0" lockedkeyboardzoom="0" speedwheel="1" invertwheel="0" invertcontrol="1" contextfullscreen="1" contextprojections="0" lockedmouse="0" dblclickfullscreen="0" sensitivity="8" lockedwheel="0"/>
   </panorama>
   <panorama hideabout="1" id="node7">
-    <input levelingroll="0" leveltileurl="tiles/node7/cf_%c/l_%l/c_%x/tile_%y.jpg" leveltilesize="510" height="1520" levelbias="0.400" width="1520" levelingpitch="0" overlap="1" levelbiashidpi="1.000">
-      <level height="1520" width="1520" predecode="0" preload="0"/>
-      <level height="760" width="760" predecode="0" preload="0"/>
-      <level height="380" width="380" predecode="1" preload="1"/>
-      <preview color="0x808080" strip="1"/>
+    <input levelingpitch="0" levelingroll="0" height="1520" levelbias="0.400" width="1520" leveltileurl="tiles/node7/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbiashidpi="1.000" overlap="1" leveltilesize="510">
+      <level height="1520" predecode="0" width="1520" preload="0"/>
+      <level height="760" predecode="0" width="760" preload="0"/>
+      <level height="380" predecode="1" width="380" preload="1"/>
+      <preview strip="1" color="0x808080"/>
     </input>
     <view pannorth="112.277" fovmode="0">
-      <start projection="4" fov="100" pan="0" tilt="0"/>
-      <flyin projection="9" fov="170" pan="0" tilt="-90"/>
+      <start projection="4" pan="0" tilt="0" fov="100"/>
+      <flyin projection="9" pan="0" tilt="-90" fov="170"/>
       <min fovpixel="2" pan="0" tilt="-90"/>
-      <max fovfisheye="360" fov="140" pan="360" fovstereographic="330" tilt="90" scaletofit="1"/>
+      <max scaletofit="1" fovstereographic="330" pan="360" tilt="90" fov="140" fovfisheye="360"/>
     </view>
-    <userdata title="0-Cafetería" description="" heading="112.277" customnodeid="" datetime="2026:02:05 11:03:29" source="" author="" latitude="42.58948064" longitude="-8.78417569" comment="" tags="Marzipano" info="" nodeid="node7" copyright="">
-      <mapcoords y_floorplan_percent="34.9398" x_floorplan_percent="10.929" mapid="P0" x="0.274658" y="-0.477905"/>
+    <userdata author="" longitude="-8.78417569" nodeid="node7" info="" title="0-Cafetería" customnodeid="" heading="112.277" copyright="" source="" description="" tags="Marzipano" datetime="2026:02:05 11:03:29" latitude="42.58948064" comment="">
+      <mapcoords y="-0.477905" mapid="P0" x="0.274658" x_floorplan_percent="10.929" y_floorplan_percent="34.9398"/>
     </userdata>
     <hotspots height="20" width="180" wordwrap="1">
-      <label border="1" enabled="1" background="1" backgroundcolor="0xffffff" borderalpha="1" height="20" bordercolor="0x000000" backgroundalpha="1" width="180" borderradius="1" textcolor="0x000000" textalpha="1" wordwrap="1"/>
-      <polystyle backgroundcolor="0x0000ff" borderalpha="1" bordercolor="0x0000ff" backgroundalpha="0.25098" mode="0" handcursor="1"/>
-      <hotspot title="0-Hall entrada" description="" target="$fwd" pan="83.1484" tilt="0" url="{node2}" distance="7.87173" skinid="ht_node" id="Point01"/>
+      <label backgroundalpha="1" height="20" bordercolor="0x000000" background="1" width="180" textcolor="0x000000" border="1" wordwrap="1" enabled="1" borderalpha="1" borderradius="1" backgroundcolor="0xffffff" textalpha="1"/>
+      <polystyle backgroundalpha="0.25098" bordercolor="0x0000ff" handcursor="1" mode="0" borderalpha="1" backgroundcolor="0x0000ff"/>
+      <hotspot distance="7.87173" title="0-Hall entrada" id="Point01" description="" skinid="ht_node" url="{node2}" pan="83.1484" tilt="0" target="$fwd"/>
     </hotspots>
     <media/>
-    <transition zoomfov="20" blendcolor="0x000000" softedge="0" enabled="1" zoomout="0" zoomoutpause="1" blendtime="1" zoomin="0" type="crossdissolve" zoomspeed="2"/>
-    <animation useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
-    <control simulatemass="1" sensitivity="8" invertwheel="0" speedwheel="1" lockedkeyboardzoom="0" contextprojections="0" hideabout="1" lockedwheel="0" dblclickfullscreen="0" rubberband="0" invertcontrol="1" lockedmouse="0" lockedkeyboard="0" contextfullscreen="1"/>
+    <transition softedge="0" zoomfov="20" blendcolor="0x000000" type="crossdissolve" zoomout="0" zoomoutpause="1" enabled="1" zoomin="0" zoomspeed="2" blendtime="1"/>
+    <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0"/>
+    <control hideabout="1" simulatemass="1" lockedkeyboard="0" rubberband="0" lockedkeyboardzoom="0" speedwheel="1" invertwheel="0" invertcontrol="1" contextfullscreen="1" contextprojections="0" lockedmouse="0" dblclickfullscreen="0" sensitivity="8" lockedwheel="0"/>
   </panorama>
   <panorama hideabout="1" id="node8">
-    <input levelingroll="0" leveltileurl="tiles/node8/cf_%c/l_%l/c_%x/tile_%y.jpg" leveltilesize="510" height="1520" levelbias="0.400" width="1520" levelingpitch="0" overlap="1" levelbiashidpi="1.000">
-      <level height="1520" width="1520" predecode="0" preload="0"/>
-      <level height="760" width="760" predecode="0" preload="0"/>
-      <level height="380" width="380" predecode="1" preload="1"/>
-      <preview color="0x808080" strip="1"/>
+    <input levelingpitch="0" levelingroll="0" height="1520" levelbias="0.400" width="1520" leveltileurl="tiles/node8/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbiashidpi="1.000" overlap="1" leveltilesize="510">
+      <level height="1520" predecode="0" width="1520" preload="0"/>
+      <level height="760" predecode="0" width="760" preload="0"/>
+      <level height="380" predecode="1" width="380" preload="1"/>
+      <preview strip="1" color="0x808080"/>
     </input>
     <view pannorth="-93.4363" fovmode="0">
-      <start projection="4" fov="100" pan="0" tilt="0"/>
-      <flyin projection="9" fov="170" pan="0" tilt="-90"/>
+      <start projection="4" pan="0" tilt="0" fov="100"/>
+      <flyin projection="9" pan="0" tilt="-90" fov="170"/>
       <min fovpixel="2" pan="0" tilt="-90"/>
-      <max fovfisheye="360" fov="140" pan="360" fovstereographic="330" tilt="90" scaletofit="1"/>
+      <max scaletofit="1" fovstereographic="330" pan="360" tilt="90" fov="140" fovfisheye="360"/>
     </view>
-    <userdata title="0-Salón de Actos" description="" heading="-93.4363" customnodeid="" datetime="2026:02:10 14:46:48" source="" author="" latitude="42.58932430" longitude="-8.78394070" comment="" tags="Marzipano" info="" nodeid="node8" copyright="">
-      <mapcoords y_floorplan_percent="83.1325" x_floorplan_percent="7.65027" mapid="P0" x="0.192261" y="-1.13708"/>
+    <userdata author="" longitude="-8.78394070" nodeid="node8" info="" title="0-Salón de Actos" customnodeid="" heading="-93.4363" copyright="" source="" description="" tags="Marzipano" datetime="2026:02:10 14:46:48" latitude="42.58932430" comment="">
+      <mapcoords y="-1.13708" mapid="P0" x="0.192261" x_floorplan_percent="7.65027" y_floorplan_percent="83.1325"/>
     </userdata>
     <hotspots height="20" width="180" wordwrap="1">
-      <label border="1" enabled="1" background="1" backgroundcolor="0xffffff" borderalpha="1" height="20" bordercolor="0x000000" backgroundalpha="1" width="180" borderradius="1" textcolor="0x000000" textalpha="1" wordwrap="1"/>
-      <polystyle backgroundcolor="0x0000ff" borderalpha="1" bordercolor="0x0000ff" backgroundalpha="0.25098" mode="0" handcursor="1"/>
-      <hotspot title="0 - Secretaria" description="" target="" pan="-97.54" tilt="-1.72" url="{node5}" distance="9.87172" skinid="ht_node" id="Point01"/>
+      <label backgroundalpha="1" height="20" bordercolor="0x000000" background="1" width="180" textcolor="0x000000" border="1" wordwrap="1" enabled="1" borderalpha="1" borderradius="1" backgroundcolor="0xffffff" textalpha="1"/>
+      <polystyle backgroundalpha="0.25098" bordercolor="0x0000ff" handcursor="1" mode="0" borderalpha="1" backgroundcolor="0x0000ff"/>
+      <hotspot distance="9.87172" title="0 - Secretaria" id="Point01" description="" skinid="ht_node" url="{node5}" pan="-97.54" tilt="-1.72" target=""/>
     </hotspots>
     <media/>
-    <transition zoomfov="20" blendcolor="0x000000" softedge="0" enabled="1" zoomout="0" zoomoutpause="1" blendtime="1" zoomin="0" type="crossdissolve" zoomspeed="2"/>
-    <animation useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
-    <control simulatemass="1" sensitivity="8" invertwheel="0" speedwheel="1" lockedkeyboardzoom="0" contextprojections="0" hideabout="1" lockedwheel="0" dblclickfullscreen="0" rubberband="0" invertcontrol="1" lockedmouse="0" lockedkeyboard="0" contextfullscreen="1"/>
+    <transition softedge="0" zoomfov="20" blendcolor="0x000000" type="crossdissolve" zoomout="0" zoomoutpause="1" enabled="1" zoomin="0" zoomspeed="2" blendtime="1"/>
+    <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0"/>
+    <control hideabout="1" simulatemass="1" lockedkeyboard="0" rubberband="0" lockedkeyboardzoom="0" speedwheel="1" invertwheel="0" invertcontrol="1" contextfullscreen="1" contextprojections="0" lockedmouse="0" dblclickfullscreen="0" sensitivity="8" lockedwheel="0"/>
   </panorama>
   <panorama hideabout="1" id="node9">
-    <input levelingroll="0" leveltileurl="tiles/node9/cf_%c/l_%l/c_%x/tile_%y.jpg" leveltilesize="510" height="1520" levelbias="0.400" width="1520" levelingpitch="0" overlap="1" levelbiashidpi="1.000">
-      <level height="1520" width="1520" predecode="0" preload="0"/>
-      <level height="760" width="760" predecode="0" preload="0"/>
-      <level height="380" width="380" predecode="1" preload="1"/>
-      <preview color="0x808080" strip="1"/>
+    <input levelingpitch="0" levelingroll="0" height="1520" levelbias="0.400" width="1520" leveltileurl="tiles/node9/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbiashidpi="1.000" overlap="1" leveltilesize="510">
+      <level height="1520" predecode="0" width="1520" preload="0"/>
+      <level height="760" predecode="0" width="760" preload="0"/>
+      <level height="380" predecode="1" width="380" preload="1"/>
+      <preview strip="1" color="0x808080"/>
     </input>
     <view pannorth="152.869" fovmode="0">
-      <start projection="4" fov="100" pan="0" tilt="0"/>
-      <flyin projection="9" fov="170" pan="0" tilt="-90"/>
+      <start projection="4" pan="0" tilt="0" fov="100"/>
+      <flyin projection="9" pan="0" tilt="-90" fov="170"/>
       <min fovpixel="2" pan="0" tilt="-90"/>
-      <max fovfisheye="360" fov="140" pan="360" fovstereographic="330" tilt="90" scaletofit="1"/>
+      <max scaletofit="1" fovstereographic="330" pan="360" tilt="90" fov="140" fovfisheye="360"/>
     </view>
-    <userdata title="0-Pregiro planta baja" description="" heading="152.869" customnodeid="" datetime="2026:02:10 14:02:01" source="" author="" latitude="42.58985604" longitude="-8.78368467" comment="" tags="Marzipano" info="" nodeid="node9" copyright="">
-      <mapcoords y_floorplan_percent="51.8072" x_floorplan_percent="69.2896" mapid="P0" x="1.74133" y="-0.708618"/>
+    <userdata author="" longitude="-8.78368467" nodeid="node9" info="" title="0-Pregiro planta baja" customnodeid="" heading="152.869" copyright="" source="" description="" tags="Marzipano" datetime="2026:02:10 14:02:01" latitude="42.58985604" comment="">
+      <mapcoords y="-0.708618" mapid="P0" x="1.74133" x_floorplan_percent="69.2896" y_floorplan_percent="51.8072"/>
     </userdata>
     <hotspots height="20" width="180" wordwrap="1">
-      <label border="1" enabled="1" background="1" backgroundcolor="0xffffff" borderalpha="1" height="20" bordercolor="0x000000" backgroundalpha="1" width="180" borderradius="1" textcolor="0x000000" textalpha="1" wordwrap="1"/>
-      <polystyle backgroundcolor="0x0000ff" borderalpha="1" bordercolor="0x0000ff" backgroundalpha="0.25098" mode="0" handcursor="1"/>
-      <hotspot title="0-Pasillo" description="" target="" pan="-90.58" tilt="-8.31" url="{node6}" distance="13.7504" skinid="ht_node" id="Point01"/>
-      <hotspot title="0-Giro planta baja" description="" target="" pan="-122.24" tilt="-4.31" url="{node10}" distance="11.0243" skinid="ht_node" id="Point02"/>
-      <hotspot title="0-Música" description="" target="" pan="-196.57" tilt="-6.47" url="{node12}" distance="8.32545" skinid="ht_node" id="Point03"/>
-      <hotspot title="0-Lab.Ciencias" description="" target="" pan="-247.84" tilt="-3.41" url="{node13}" distance="9.63621" skinid="ht_node" id="Point04"/>
+      <label backgroundalpha="1" height="20" bordercolor="0x000000" background="1" width="180" textcolor="0x000000" border="1" wordwrap="1" enabled="1" borderalpha="1" borderradius="1" backgroundcolor="0xffffff" textalpha="1"/>
+      <polystyle backgroundalpha="0.25098" bordercolor="0x0000ff" handcursor="1" mode="0" borderalpha="1" backgroundcolor="0x0000ff"/>
+      <hotspot distance="13.7504" title="0-Pasillo" id="Point01" description="" skinid="ht_node" url="{node6}" pan="-90.58" tilt="-8.31" target=""/>
+      <hotspot distance="11.0243" title="0-Giro planta baja" id="Point02" description="" skinid="ht_node" url="{node10}" pan="-122.24" tilt="-4.31" target=""/>
+      <hotspot distance="8.32545" title="0-Música" id="Point03" description="" skinid="ht_node" url="{node12}" pan="-196.57" tilt="-6.47" target=""/>
+      <hotspot distance="9.63621" title="0-Lab.Ciencias" id="Point04" description="" skinid="ht_node" url="{node13}" pan="-247.84" tilt="-3.41" target=""/>
     </hotspots>
     <media/>
-    <transition zoomfov="20" blendcolor="0x000000" softedge="0" enabled="1" zoomout="0" zoomoutpause="1" blendtime="1" zoomin="0" type="crossdissolve" zoomspeed="2"/>
-    <animation useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
-    <control simulatemass="1" sensitivity="8" invertwheel="0" speedwheel="1" lockedkeyboardzoom="0" contextprojections="0" hideabout="1" lockedwheel="0" dblclickfullscreen="0" rubberband="0" invertcontrol="1" lockedmouse="0" lockedkeyboard="0" contextfullscreen="1"/>
+    <transition softedge="0" zoomfov="20" blendcolor="0x000000" type="crossdissolve" zoomout="0" zoomoutpause="1" enabled="1" zoomin="0" zoomspeed="2" blendtime="1"/>
+    <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0"/>
+    <control hideabout="1" simulatemass="1" lockedkeyboard="0" rubberband="0" lockedkeyboardzoom="0" speedwheel="1" invertwheel="0" invertcontrol="1" contextfullscreen="1" contextprojections="0" lockedmouse="0" dblclickfullscreen="0" sensitivity="8" lockedwheel="0"/>
   </panorama>
   <panorama hideabout="1" id="node10">
-    <input levelingroll="0" leveltileurl="tiles/node10/cf_%c/l_%l/c_%x/tile_%y.jpg" leveltilesize="510" height="1520" levelbias="0.400" width="1520" levelingpitch="0" overlap="1" levelbiashidpi="1.000">
-      <level height="1520" width="1520" predecode="0" preload="0"/>
-      <level height="760" width="760" predecode="0" preload="0"/>
-      <level height="380" width="380" predecode="1" preload="1"/>
-      <preview color="0x808080" strip="1"/>
+    <input levelingpitch="0" levelingroll="0" height="1520" levelbias="0.400" width="1520" leveltileurl="tiles/node10/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbiashidpi="1.000" overlap="1" leveltilesize="510">
+      <level height="1520" predecode="0" width="1520" preload="0"/>
+      <level height="760" predecode="0" width="760" preload="0"/>
+      <level height="380" predecode="1" width="380" preload="1"/>
+      <preview strip="1" color="0x808080"/>
     </input>
     <view pannorth="-71.7032" fovmode="0">
-      <start projection="4" fov="100" pan="0" tilt="0"/>
-      <flyin projection="9" fov="170" pan="0" tilt="-90"/>
+      <start projection="4" pan="0" tilt="0" fov="100"/>
+      <flyin projection="9" pan="0" tilt="-90" fov="170"/>
       <min fovpixel="2" pan="0" tilt="-90"/>
-      <max fovfisheye="360" fov="140" pan="360" fovstereographic="330" tilt="90" scaletofit="1"/>
+      <max scaletofit="1" fovstereographic="330" pan="360" tilt="90" fov="140" fovfisheye="360"/>
     </view>
-    <userdata title="0-Giro planta baja" description="" heading="-71.7032" customnodeid="" datetime="2026:02:10 14:01:23" source="" author="" latitude="42.58989235" longitude="-8.78380998" comment="" tags="Marzipano" info="" nodeid="node10" copyright="">
-      <mapcoords y_floorplan_percent="31.7269" x_floorplan_percent="66.6667" mapid="P0" x="1.67542" y="-0.43396"/>
+    <userdata author="" longitude="-8.78380998" nodeid="node10" info="" title="0-Giro planta baja" customnodeid="" heading="-71.7032" copyright="" source="" description="" tags="Marzipano" datetime="2026:02:10 14:01:23" latitude="42.58989235" comment="">
+      <mapcoords y="-0.43396" mapid="P0" x="1.67542" x_floorplan_percent="66.6667" y_floorplan_percent="31.7269"/>
     </userdata>
     <hotspots height="20" width="180" wordwrap="1">
-      <label border="1" enabled="1" background="1" backgroundcolor="0xffffff" borderalpha="1" height="20" bordercolor="0x000000" backgroundalpha="1" width="180" borderradius="1" textcolor="0x000000" textalpha="1" wordwrap="1"/>
-      <polystyle backgroundcolor="0x0000ff" borderalpha="1" bordercolor="0x0000ff" backgroundalpha="0.25098" mode="0" handcursor="1"/>
-      <hotspot title="0-Pregiro planta baja" description="" target="" pan="-166.55" tilt="-5.92" url="{node9}" distance="11.0243" skinid="ht_node" id="Point01"/>
-      <hotspot title="0-Puerta trasera planta baja" description="" target="" pan="-18.18" tilt="-6.08" url="{node11}" distance="6.08836" skinid="ht_node" id="Point02"/>
+      <label backgroundalpha="1" height="20" bordercolor="0x000000" background="1" width="180" textcolor="0x000000" border="1" wordwrap="1" enabled="1" borderalpha="1" borderradius="1" backgroundcolor="0xffffff" textalpha="1"/>
+      <polystyle backgroundalpha="0.25098" bordercolor="0x0000ff" handcursor="1" mode="0" borderalpha="1" backgroundcolor="0x0000ff"/>
+      <hotspot distance="11.0243" title="0-Pregiro planta baja" id="Point01" description="" skinid="ht_node" url="{node9}" pan="-166.55" tilt="-5.92" target=""/>
+      <hotspot distance="6.08836" title="0-Puerta trasera planta baja" id="Point02" description="" skinid="ht_node" url="{node11}" pan="-18.18" tilt="-6.08" target=""/>
     </hotspots>
     <media/>
-    <transition zoomfov="20" blendcolor="0x000000" softedge="0" enabled="1" zoomout="0" zoomoutpause="1" blendtime="1" zoomin="0" type="crossdissolve" zoomspeed="2"/>
-    <animation useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
-    <control simulatemass="1" sensitivity="8" invertwheel="0" speedwheel="1" lockedkeyboardzoom="0" contextprojections="0" hideabout="1" lockedwheel="0" dblclickfullscreen="0" rubberband="0" invertcontrol="1" lockedmouse="0" lockedkeyboard="0" contextfullscreen="1"/>
+    <transition softedge="0" zoomfov="20" blendcolor="0x000000" type="crossdissolve" zoomout="0" zoomoutpause="1" enabled="1" zoomin="0" zoomspeed="2" blendtime="1"/>
+    <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0"/>
+    <control hideabout="1" simulatemass="1" lockedkeyboard="0" rubberband="0" lockedkeyboardzoom="0" speedwheel="1" invertwheel="0" invertcontrol="1" contextfullscreen="1" contextprojections="0" lockedmouse="0" dblclickfullscreen="0" sensitivity="8" lockedwheel="0"/>
   </panorama>
   <panorama hideabout="1" id="node11">
-    <input levelingroll="0" leveltileurl="tiles/node11/cf_%c/l_%l/c_%x/tile_%y.jpg" leveltilesize="510" height="1520" levelbias="0.400" width="1520" levelingpitch="0" overlap="1" levelbiashidpi="1.000">
-      <level height="1520" width="1520" predecode="0" preload="0"/>
-      <level height="760" width="760" predecode="0" preload="0"/>
-      <level height="380" width="380" predecode="1" preload="1"/>
-      <preview color="0x808080" strip="1"/>
+    <input levelingpitch="0" levelingroll="0" height="1520" levelbias="0.400" width="1520" leveltileurl="tiles/node11/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbiashidpi="1.000" overlap="1" leveltilesize="510">
+      <level height="1520" predecode="0" width="1520" preload="0"/>
+      <level height="760" predecode="0" width="760" preload="0"/>
+      <level height="380" predecode="1" width="380" preload="1"/>
+      <preview strip="1" color="0x808080"/>
     </input>
-    <view pannorth="119.654" fovmode="0">
-      <start projection="4" fov="100" pan="0" tilt="0"/>
-      <flyin projection="9" fov="170" pan="0" tilt="-90"/>
+    <view pannorth="73.7748" fovmode="0">
+      <start projection="4" pan="0" tilt="0" fov="100"/>
+      <flyin projection="9" pan="0" tilt="-90" fov="170"/>
       <min fovpixel="2" pan="0" tilt="-90"/>
-      <max fovfisheye="360" fov="140" pan="360" fovstereographic="330" tilt="90" scaletofit="1"/>
+      <max scaletofit="1" fovstereographic="330" pan="360" tilt="90" fov="140" fovfisheye="360"/>
     </view>
-    <userdata title="0-Puerta trasera planta baja" description="" heading="119.654" customnodeid="" datetime="2026:02:10 14:00:33" source="" author="" latitude="42.58994645" longitude="-8.78379852" comment="" tags="Marzipano" info="" nodeid="node11" copyright="">
-      <mapcoords y_floorplan_percent="26.7068" x_floorplan_percent="72.2404" mapid="P0" x="1.81549" y="-0.365295"/>
+    <userdata author="" longitude="-8.78379852" nodeid="node11" info="" title="0-Puerta trasera planta baja" customnodeid="" heading="73.7748" copyright="" source="" description="" tags="Marzipano" datetime="2026:02:10 14:00:33" latitude="42.58994645" comment="">
+      <mapcoords y="-0.365295" mapid="P0" x="1.81549" x_floorplan_percent="72.2404" y_floorplan_percent="26.7068"/>
     </userdata>
     <hotspots height="20" width="180" wordwrap="1">
-      <label border="1" enabled="1" background="1" backgroundcolor="0xffffff" borderalpha="1" height="20" bordercolor="0x000000" backgroundalpha="1" width="180" borderradius="1" textcolor="0x000000" textalpha="1" wordwrap="1"/>
-      <polystyle backgroundcolor="0x0000ff" borderalpha="1" bordercolor="0x0000ff" backgroundalpha="0.25098" mode="0" handcursor="1"/>
-      <hotspot title="0-Giro planta baja" description="" target="" pan="-99.89" tilt="-1.78" url="{node10}" distance="6.08836" skinid="ht_node" id="Point01"/>
+      <label backgroundalpha="1" height="20" bordercolor="0x000000" background="1" width="180" textcolor="0x000000" border="1" wordwrap="1" enabled="1" borderalpha="1" borderradius="1" backgroundcolor="0xffffff" textalpha="1"/>
+      <polystyle backgroundalpha="0.25098" bordercolor="0x0000ff" handcursor="1" mode="0" borderalpha="1" backgroundcolor="0x0000ff"/>
+      <hotspot distance="6.08836" title="0-Giro planta baja" id="Point01" description="" skinid="ht_node" url="{node10}" pan="-99.89" tilt="-1.78" target=""/>
+      <hotspot distance="7.63245" title="0-Pasillo polos/tecno" id="Point02" description="" skinid="ht_node" url="{node14}" pan="345.514" tilt="-6.66" target="$fwd"/>
     </hotspots>
     <media/>
-    <transition zoomfov="20" blendcolor="0x000000" softedge="0" enabled="1" zoomout="0" zoomoutpause="1" blendtime="1" zoomin="0" type="crossdissolve" zoomspeed="2"/>
-    <animation useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
-    <control simulatemass="1" sensitivity="8" invertwheel="0" speedwheel="1" lockedkeyboardzoom="0" contextprojections="0" hideabout="1" lockedwheel="0" dblclickfullscreen="0" rubberband="0" invertcontrol="1" lockedmouse="0" lockedkeyboard="0" contextfullscreen="1"/>
+    <transition softedge="0" zoomfov="20" blendcolor="0x000000" type="crossdissolve" zoomout="0" zoomoutpause="1" enabled="1" zoomin="0" zoomspeed="2" blendtime="1"/>
+    <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0"/>
+    <control hideabout="1" simulatemass="1" lockedkeyboard="0" rubberband="0" lockedkeyboardzoom="0" speedwheel="1" invertwheel="0" invertcontrol="1" contextfullscreen="1" contextprojections="0" lockedmouse="0" dblclickfullscreen="0" sensitivity="8" lockedwheel="0"/>
   </panorama>
   <panorama hideabout="1" id="node12">
-    <input levelingroll="0" leveltileurl="tiles/node12/cf_%c/l_%l/c_%x/tile_%y.jpg" leveltilesize="510" height="1520" levelbias="0.400" width="1520" levelingpitch="0" overlap="1" levelbiashidpi="1.000">
-      <level height="1520" width="1520" predecode="0" preload="0"/>
-      <level height="760" width="760" predecode="0" preload="0"/>
-      <level height="380" width="380" predecode="1" preload="1"/>
-      <preview color="0x808080" strip="1"/>
+    <input levelingpitch="0" levelingroll="0" height="1520" levelbias="0.400" width="1520" leveltileurl="tiles/node12/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbiashidpi="1.000" overlap="1" leveltilesize="510">
+      <level height="1520" predecode="0" width="1520" preload="0"/>
+      <level height="760" predecode="0" width="760" preload="0"/>
+      <level height="380" predecode="1" width="380" preload="1"/>
+      <preview strip="1" color="0x808080"/>
     </input>
     <view pannorth="0" fovmode="0">
-      <start projection="4" fov="100" pan="0" tilt="0"/>
-      <flyin projection="9" fov="170" pan="0" tilt="-90"/>
+      <start projection="4" pan="0" tilt="0" fov="100"/>
+      <flyin projection="9" pan="0" tilt="-90" fov="170"/>
       <min fovpixel="2" pan="0" tilt="-90"/>
-      <max fovfisheye="360" fov="120" pan="360" fovstereographic="270" tilt="90" scaletofit="1"/>
+      <max scaletofit="1" fovstereographic="270" pan="360" tilt="90" fov="120" fovfisheye="360"/>
     </view>
-    <userdata title="0-Música" description="" heading="0" customnodeid="" datetime="2026:02:10 14:02:45" source="" author="" latitude="42.58993091" longitude="-8.78368383" comment="" tags="Marzipano" info="" nodeid="node12" copyright="">
-      <mapcoords y_floorplan_percent="42.9719" x_floorplan_percent="76.2842" mapid="P0" x="1.91711" y="-0.587769"/>
+    <userdata author="" longitude="-8.78368383" nodeid="node12" info="" title="0-Música" customnodeid="" heading="0" copyright="" source="" description="" tags="Marzipano" datetime="2026:02:10 14:02:45" latitude="42.58993091" comment="">
+      <mapcoords y="-0.587769" mapid="P0" x="1.91711" x_floorplan_percent="76.2842" y_floorplan_percent="42.9719"/>
     </userdata>
     <hotspots height="20" width="180" wordwrap="1">
-      <label border="1" enabled="1" background="1" backgroundcolor="0xffffff" borderalpha="1" height="20" bordercolor="0x000000" backgroundalpha="1" width="180" borderradius="1" textcolor="0x000000" textalpha="1" wordwrap="1"/>
-      <polystyle backgroundcolor="0x0000ff" borderalpha="1" bordercolor="0x0000ff" backgroundalpha="0.25098" mode="0" handcursor="1"/>
-      <hotspot title="0-Pregiro planta baja" description="" target="" pan="-99.22" tilt="-9.65" url="{node9}" distance="8.32545" skinid="ht_node" id="Point01"/>
+      <label backgroundalpha="1" height="20" bordercolor="0x000000" background="1" width="180" textcolor="0x000000" border="1" wordwrap="1" enabled="1" borderalpha="1" borderradius="1" backgroundcolor="0xffffff" textalpha="1"/>
+      <polystyle backgroundalpha="0.25098" bordercolor="0x0000ff" handcursor="1" mode="0" borderalpha="1" backgroundcolor="0x0000ff"/>
+      <hotspot distance="8.32545" title="0-Pregiro planta baja" id="Point01" description="" skinid="ht_node" url="{node9}" pan="-99.22" tilt="-9.65" target=""/>
     </hotspots>
     <media/>
-    <transition zoomfov="20" blendcolor="0x000000" softedge="0" enabled="1" zoomout="0" zoomoutpause="1" blendtime="1" zoomin="0" type="crossdissolve" zoomspeed="2"/>
-    <animation useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
-    <control simulatemass="1" sensitivity="8" invertwheel="0" speedwheel="1" lockedkeyboardzoom="0" contextprojections="0" hideabout="1" lockedwheel="0" dblclickfullscreen="0" rubberband="0" invertcontrol="1" lockedmouse="0" lockedkeyboard="0" contextfullscreen="1"/>
+    <transition softedge="0" zoomfov="20" blendcolor="0x000000" type="crossdissolve" zoomout="0" zoomoutpause="1" enabled="1" zoomin="0" zoomspeed="2" blendtime="1"/>
+    <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0"/>
+    <control hideabout="1" simulatemass="1" lockedkeyboard="0" rubberband="0" lockedkeyboardzoom="0" speedwheel="1" invertwheel="0" invertcontrol="1" contextfullscreen="1" contextprojections="0" lockedmouse="0" dblclickfullscreen="0" sensitivity="8" lockedwheel="0"/>
   </panorama>
   <panorama hideabout="1" id="node13">
-    <input levelingroll="0" leveltileurl="tiles/node13/cf_%c/l_%l/c_%x/tile_%y.jpg" leveltilesize="510" height="1520" levelbias="0.400" width="1520" levelingpitch="0" overlap="1" levelbiashidpi="1.000">
-      <level height="1520" width="1520" predecode="0" preload="0"/>
-      <level height="760" width="760" predecode="0" preload="0"/>
-      <level height="380" width="380" predecode="1" preload="1"/>
-      <preview color="0x808080" strip="1"/>
+    <input levelingpitch="0" levelingroll="0" height="1520" levelbias="0.400" width="1520" leveltileurl="tiles/node13/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbiashidpi="1.000" overlap="1" leveltilesize="510">
+      <level height="1520" predecode="0" width="1520" preload="0"/>
+      <level height="760" predecode="0" width="760" preload="0"/>
+      <level height="380" predecode="1" width="380" preload="1"/>
+      <preview strip="1" color="0x808080"/>
     </input>
     <view pannorth="-66.101" fovmode="0">
-      <start projection="4" fov="100" pan="0" tilt="0"/>
-      <flyin projection="9" fov="170" pan="0" tilt="-90"/>
+      <start projection="4" pan="0" tilt="0" fov="100"/>
+      <flyin projection="9" pan="0" tilt="-90" fov="170"/>
       <min fovpixel="2" pan="0" tilt="-90"/>
-      <max fovfisheye="360" fov="140" pan="360" fovstereographic="330" tilt="90" scaletofit="1"/>
+      <max scaletofit="1" fovstereographic="330" pan="360" tilt="90" fov="140" fovfisheye="360"/>
     </view>
-    <userdata title="0-Lab.Ciencias" description="" heading="-66.101" customnodeid="" datetime="2026:02:10 14:42:04" source="" author="" latitude="42.58988954" longitude="-8.78357611" comment="" tags="Marzipano" info="" nodeid="node13" copyright="">
-      <mapcoords y_floorplan_percent="61.4458" x_floorplan_percent="77.5956" mapid="P0" x="1.95007" y="-0.840454"/>
+    <userdata author="" longitude="-8.78357611" nodeid="node13" info="" title="0-Lab.Ciencias" customnodeid="" heading="-66.101" copyright="" source="" description="" tags="Marzipano" datetime="2026:02:10 14:42:04" latitude="42.58988954" comment="">
+      <mapcoords y="-0.840454" mapid="P0" x="1.95007" x_floorplan_percent="77.5956" y_floorplan_percent="61.4458"/>
     </userdata>
     <hotspots height="20" width="180" wordwrap="1">
-      <label border="1" enabled="1" background="1" backgroundcolor="0xffffff" borderalpha="1" height="20" bordercolor="0x000000" backgroundalpha="1" width="180" borderradius="1" textcolor="0x000000" textalpha="1" wordwrap="1"/>
-      <polystyle backgroundcolor="0x0000ff" borderalpha="1" bordercolor="0x0000ff" backgroundalpha="0.25098" mode="0" handcursor="1"/>
-      <hotspot title="0-Pregiro planta baja" description="" target="" pan="-277.17" tilt="-3.71" url="{node9}" distance="9.63621" skinid="ht_node" id="Point01"/>
+      <label backgroundalpha="1" height="20" bordercolor="0x000000" background="1" width="180" textcolor="0x000000" border="1" wordwrap="1" enabled="1" borderalpha="1" borderradius="1" backgroundcolor="0xffffff" textalpha="1"/>
+      <polystyle backgroundalpha="0.25098" bordercolor="0x0000ff" handcursor="1" mode="0" borderalpha="1" backgroundcolor="0x0000ff"/>
+      <hotspot distance="9.63621" title="0-Pregiro planta baja" id="Point01" description="" skinid="ht_node" url="{node9}" pan="-277.17" tilt="-3.71" target=""/>
     </hotspots>
     <media/>
-    <transition zoomfov="20" blendcolor="0x000000" softedge="0" enabled="1" zoomout="0" zoomoutpause="1" blendtime="1" zoomin="0" type="crossdissolve" zoomspeed="2"/>
-    <animation useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
-    <control simulatemass="1" sensitivity="8" invertwheel="0" speedwheel="1" lockedkeyboardzoom="0" contextprojections="0" hideabout="1" lockedwheel="0" dblclickfullscreen="0" rubberband="0" invertcontrol="1" lockedmouse="0" lockedkeyboard="0" contextfullscreen="1"/>
+    <transition softedge="0" zoomfov="20" blendcolor="0x000000" type="crossdissolve" zoomout="0" zoomoutpause="1" enabled="1" zoomin="0" zoomspeed="2" blendtime="1"/>
+    <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0"/>
+    <control hideabout="1" simulatemass="1" lockedkeyboard="0" rubberband="0" lockedkeyboardzoom="0" speedwheel="1" invertwheel="0" invertcontrol="1" contextfullscreen="1" contextprojections="0" lockedmouse="0" dblclickfullscreen="0" sensitivity="8" lockedwheel="0"/>
+  </panorama>
+  <panorama hideabout="1" id="node14">
+    <input levelingpitch="0" levelingroll="0" height="1520" levelbias="0.400" width="1520" leveltileurl="tiles/node14/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbiashidpi="1.000" overlap="1" leveltilesize="510">
+      <level height="1520" predecode="0" width="1520" preload="0"/>
+      <level height="760" predecode="0" width="760" preload="0"/>
+      <level height="380" predecode="1" width="380" preload="1"/>
+      <preview strip="1" color="0x808080"/>
+    </input>
+    <view pannorth="28.9376" fovmode="0">
+      <start projection="4" pan="0" tilt="0" fov="100"/>
+      <flyin projection="9" pan="0" tilt="-90" fov="170"/>
+      <min fovpixel="2" pan="0" tilt="-90"/>
+      <max scaletofit="1" fovstereographic="330" pan="360" tilt="90" fov="140" fovfisheye="360"/>
+    </view>
+    <userdata author="" longitude="-8.78373202" nodeid="node14" info="" title="0-Pasillo polos/tecno" customnodeid="" heading="28.9376" copyright="" source="" description="" tags="Marzipano" datetime="2026:02:10 13:59:33" latitude="42.58999456" comment="">
+      <mapcoords y="-0.401001" mapid="P0" x="2.00775" x_floorplan_percent="79.8907" y_floorplan_percent="29.3173"/>
+    </userdata>
+    <hotspots height="20" width="180" wordwrap="1">
+      <label backgroundalpha="1" height="20" bordercolor="0x000000" background="1" width="180" textcolor="0x000000" border="1" wordwrap="1" enabled="1" borderalpha="1" borderradius="1" backgroundcolor="0xffffff" textalpha="1"/>
+      <polystyle backgroundalpha="0.25098" bordercolor="0x0000ff" handcursor="1" mode="0" borderalpha="1" backgroundcolor="0x0000ff"/>
+      <hotspot distance="7.63245" title="0-Puerta trasera planta baja" id="Point01" description="" skinid="ht_node" url="{node11}" pan="166.666" tilt="0" target="$fwd"/>
+      <hotspot distance="11.9355" title="0-Tecnoloxía" id="Point02" description="" skinid="ht_node" url="{node16}" pan="0.229344" tilt="-4.44" target="$fwd"/>
+      <hotspot distance="4.30606" title="0-Polos creativos" id="Point03" description="" skinid="ht_node" url="{node15}" pan="18.5818" tilt="-7.92" target="$fwd"/>
+    </hotspots>
+    <media/>
+    <transition softedge="0" zoomfov="20" blendcolor="0x000000" type="crossdissolve" zoomout="0" zoomoutpause="1" enabled="1" zoomin="0" zoomspeed="2" blendtime="1"/>
+    <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0"/>
+    <control hideabout="1" simulatemass="1" lockedkeyboard="0" rubberband="0" lockedkeyboardzoom="0" speedwheel="1" invertwheel="0" invertcontrol="1" contextfullscreen="1" contextprojections="0" lockedmouse="0" dblclickfullscreen="0" sensitivity="8" lockedwheel="0"/>
+  </panorama>
+  <panorama hideabout="1" id="node15">
+    <input levelingpitch="0" levelingroll="0" height="1520" levelbias="0.400" width="1520" leveltileurl="tiles/node15/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbiashidpi="1.000" overlap="1" leveltilesize="510">
+      <level height="1520" predecode="0" width="1520" preload="0"/>
+      <level height="760" predecode="0" width="760" preload="0"/>
+      <level height="380" predecode="1" width="380" preload="1"/>
+      <preview strip="1" color="0x808080"/>
+    </input>
+    <view pannorth="-68.1556" fovmode="0">
+      <start projection="4" pan="0" tilt="0" fov="100"/>
+      <flyin projection="9" pan="0" tilt="-90" fov="170"/>
+      <min fovpixel="2" pan="0" tilt="-90"/>
+      <max scaletofit="1" fovstereographic="330" pan="360" tilt="90" fov="140" fovfisheye="360"/>
+    </view>
+    <userdata author="" longitude="-8.78376303" nodeid="node15" info="" title="0-Polos creativos" customnodeid="" heading="-68.1556" copyright="" source="" description="" tags="Marzipano" datetime="2026:02:10 13:57:26" latitude="42.59002584" comment="">
+      <mapcoords y="-0.296631" mapid="P0" x="2.04346" x_floorplan_percent="81.3115" y_floorplan_percent="21.6867"/>
+    </userdata>
+    <hotspots height="20" width="180" wordwrap="1">
+      <label backgroundalpha="1" height="20" bordercolor="0x000000" background="1" width="180" textcolor="0x000000" border="1" wordwrap="1" enabled="1" borderalpha="1" borderradius="1" backgroundcolor="0xffffff" textalpha="1"/>
+      <polystyle backgroundalpha="0.25098" bordercolor="0x0000ff" handcursor="1" mode="0" borderalpha="1" backgroundcolor="0x0000ff"/>
+      <hotspot distance="4.30606" title="0-Pasillo polos/tecno" id="Point01" description="" skinid="ht_node" url="{node14}" pan="-156.381" tilt="-7.31" target="$fwd"/>
+    </hotspots>
+    <media/>
+    <transition softedge="0" zoomfov="20" blendcolor="0x000000" type="crossdissolve" zoomout="0" zoomoutpause="1" enabled="1" zoomin="0" zoomspeed="2" blendtime="1"/>
+    <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0"/>
+    <control hideabout="1" simulatemass="1" lockedkeyboard="0" rubberband="0" lockedkeyboardzoom="0" speedwheel="1" invertwheel="0" invertcontrol="1" contextfullscreen="1" contextprojections="0" lockedmouse="0" dblclickfullscreen="0" sensitivity="8" lockedwheel="0"/>
+  </panorama>
+  <panorama hideabout="1" id="node16">
+    <input levelingpitch="0" levelingroll="0" height="1520" levelbias="0.400" width="1520" leveltileurl="tiles/node16/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbiashidpi="1.000" overlap="1" leveltilesize="510">
+      <level height="1520" predecode="0" width="1520" preload="0"/>
+      <level height="760" predecode="0" width="760" preload="0"/>
+      <level height="380" predecode="1" width="380" preload="1"/>
+      <preview strip="1" color="0x808080"/>
+    </input>
+    <view pannorth="161.978" fovmode="0">
+      <start projection="4" pan="0" tilt="0" fov="100"/>
+      <flyin projection="9" pan="0" tilt="-90" fov="170"/>
+      <min fovpixel="2" pan="0" tilt="-90"/>
+      <max scaletofit="1" fovstereographic="330" pan="360" tilt="90" fov="140" fovfisheye="360"/>
+    </view>
+    <userdata author="" longitude="-8.78369289" nodeid="node16" info="" title="0-Tecnoloxía" customnodeid="" heading="161.978" copyright="" source="" description="" tags="Marzipano" datetime="2026:02:10 14:52:42" latitude="42.59009796" comment="">
+      <mapcoords y="-0.299377" mapid="P0" x="2.29614" x_floorplan_percent="91.3661" y_floorplan_percent="21.8876"/>
+    </userdata>
+    <hotspots height="20" width="180" wordwrap="1">
+      <label backgroundalpha="1" height="20" bordercolor="0x000000" background="1" width="180" textcolor="0x000000" border="1" wordwrap="1" enabled="1" borderalpha="1" borderradius="1" backgroundcolor="0xffffff" textalpha="1"/>
+      <polystyle backgroundalpha="0.25098" bordercolor="0x0000ff" handcursor="1" mode="0" borderalpha="1" backgroundcolor="0x0000ff"/>
+      <hotspot distance="11.9355" title="0-Pasillo polos/tecno" id="Point01" description="" skinid="ht_node" url="{node14}" pan="164.432" tilt="0" target="$fwd"/>
+    </hotspots>
+    <media/>
+    <transition softedge="0" zoomfov="20" blendcolor="0x000000" type="crossdissolve" zoomout="0" zoomoutpause="1" enabled="1" zoomin="0" zoomspeed="2" blendtime="1"/>
+    <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0"/>
+    <control hideabout="1" simulatemass="1" lockedkeyboard="0" rubberband="0" lockedkeyboardzoom="0" speedwheel="1" invertwheel="0" invertcontrol="1" contextfullscreen="1" contextprojections="0" lockedmouse="0" dblclickfullscreen="0" sensitivity="8" lockedwheel="0"/>
   </panorama>
   <masternode>
-    <userdata title="" description="" heading="0" customnodeid="" datetime="" source="" author="" latitude="" longitude="" comment="" tags="" info="" nodeid="master" copyright=""/>
+    <userdata author="" longitude="" nodeid="master" info="" title="" customnodeid="" heading="0" copyright="" source="" description="" tags="" datetime="" latitude="" comment=""/>
   </masternode>
-  <map title="Planta baixa" bgcolor="rgba(0, 0, 0, 1)" floorplannorth="55.02" height="996" width="1830" zoomlevels="1" tileformat="png" type="file" transparent="0" id="P0"/>
+  <map height="996" tileformat="png" title="Planta baixa" type="file" width="1830" id="P0" bgcolor="rgba(0, 0, 0, 1)" zoomlevels="1" floorplannorth="55.02" transparent="0"/>
 </tour>

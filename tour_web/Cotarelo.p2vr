@@ -374,8 +374,8 @@
       <hotspots>
         <hotspot>
           <position>
-            <pan>-14.4657</pan>
-            <tilt>0</tilt>
+            <pan>345.587</pan>
+            <tilt>-2.98</tilt>
             <fov>10</fov>
           </position>
           <next>
@@ -394,15 +394,15 @@
           <type>point</type>
           <distance>0</distance>
           <distanceauto>1</distanceauto>
-          <autoplace>1</autoplace>
+          <autoplace>0</autoplace>
           <use3d>0</use3d>
           <width>0</width>
           <height>0</height>
         </hotspot>
         <hotspot>
           <position>
-            <pan>-41.2732</pan>
-            <tilt>0</tilt>
+            <pan>-41.941</pan>
+            <tilt>-1.18</tilt>
             <fov>10</fov>
           </position>
           <next>
@@ -421,7 +421,7 @@
           <type>point</type>
           <distance>0</distance>
           <distanceauto>1</distanceauto>
-          <autoplace>1</autoplace>
+          <autoplace>0</autoplace>
           <use3d>0</use3d>
           <width>0</width>
           <height>0</height>
@@ -606,7 +606,7 @@
           <tilt>-90</tilt>
           <fov>170</fov>
         </flyinstart>
-        <pannorth>-76.4746</pannorth>
+        <pannorth>-81.8288</pannorth>
         <scaletofit>1</scaletofit>
         <projection>rectilinear</projection>
         <flyinprojection>stereo</flyinprojection>
@@ -659,8 +659,8 @@
         </hotspot>
         <hotspot>
           <position>
-            <pan>-326.58</pan>
-            <tilt>-1.15</tilt>
+            <pan>-344.13</pan>
+            <tilt>-2.95</tilt>
             <fov>10</fov>
           </position>
           <next>
@@ -760,8 +760,8 @@
       <hotspots>
         <hotspot>
           <position>
-            <pan>391.275</pan>
-            <tilt>0</tilt>
+            <pan>28.117</pan>
+            <tilt>-0.9</tilt>
             <fov>10</fov>
           </position>
           <next>
@@ -780,7 +780,7 @@
           <type>point</type>
           <distance>0</distance>
           <distanceauto>1</distanceauto>
-          <autoplace>1</autoplace>
+          <autoplace>0</autoplace>
           <use3d>0</use3d>
           <width>0</width>
           <height>0</height>
@@ -1455,8 +1455,8 @@
         </hotspot>
         <hotspot>
           <position>
-            <pan>74.1533</pan>
-            <tilt>0</tilt>
+            <pan>345.514</pan>
+            <tilt>-6.66</tilt>
             <fov>10</fov>
           </position>
           <next>
@@ -1475,7 +1475,7 @@
           <type>point</type>
           <distance>0</distance>
           <distanceauto>1</distanceauto>
-          <autoplace>1</autoplace>
+          <autoplace>0</autoplace>
           <use3d>0</use3d>
           <width>0</width>
           <height>0</height>
@@ -1768,8 +1768,8 @@
         </hotspot>
         <hotspot>
           <position>
-            <pan>13.3693</pan>
-            <tilt>0</tilt>
+            <pan>0.229344</pan>
+            <tilt>-4.44</tilt>
             <fov>10</fov>
           </position>
           <next>
@@ -1788,15 +1788,15 @@
           <type>point</type>
           <distance>0</distance>
           <distanceauto>1</distanceauto>
-          <autoplace>1</autoplace>
+          <autoplace>0</autoplace>
           <use3d>0</use3d>
           <width>0</width>
           <height>0</height>
         </hotspot>
         <hotspot>
           <position>
-            <pan>65.0618</pan>
-            <tilt>0</tilt>
+            <pan>18.5818</pan>
+            <tilt>-7.92</tilt>
             <fov>10</fov>
           </position>
           <next>
@@ -1815,7 +1815,7 @@
           <type>point</type>
           <distance>0</distance>
           <distanceauto>1</distanceauto>
-          <autoplace>1</autoplace>
+          <autoplace>0</autoplace>
           <use3d>0</use3d>
           <width>0</width>
           <height>0</height>
@@ -1896,8 +1896,8 @@
       <hotspots>
         <hotspot>
           <position>
-            <pan>-143.876</pan>
-            <tilt>0</tilt>
+            <pan>-156.381</pan>
+            <tilt>-7.31</tilt>
             <fov>10</fov>
           </position>
           <next>
@@ -1916,7 +1916,7 @@
           <type>point</type>
           <distance>0</distance>
           <distanceauto>1</distanceauto>
-          <autoplace>1</autoplace>
+          <autoplace>0</autoplace>
           <use3d>0</use3d>
           <width>0</width>
           <height>0</height>
