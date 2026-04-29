@@ -2044,7 +2044,7 @@
             <value id="staretarget">5</value>
             <value id="staretimeout">2000</value>
             <value id="stereo">false</value>
-            <value id="touchicon"></value>
+            <value id="touchicon"/>
           </values>
         </html>
         <facequality/>
@@ -2062,7 +2062,7 @@
         </webvr>
         <tilesize>1520</tilesize>
         <filename>output/pano.xml</filename>
-        <skinfile>silhouette_cardboard.ggsk</skinfile>
+        <skinfile>$d/silhouette_cardboard2.ggsk</skinfile>
         <skinconfiguration/>
         <skintablesconfiguration/>
         <skincolorsconfiguration>
@@ -2080,6 +2080,7 @@
         <vrskinfile>feather_vr.ggsk</vrskinfile>
         <vrcontext>0</vrcontext>
         <hideaboutbox>1</hideaboutbox>
+        <dblclickfullscreen>1</dblclickfullscreen>
       </htmlcss>
     </output>
     <streetview/>
