@@ -1,7 +1,7 @@
 // Garden Gnome Software - Skin
 // Pano2VR 6.1.3/17904
 // Filename: silhouette_cardboard2.ggsk
-// Generated 2026-04-29T09:27:08
+// Generated 2026-04-29T09:35:38
 
 function pano2vrSkin(player,base) {
 	player.addVariable('ht_ani', 2, false);
@@ -203,7 +203,7 @@ function pano2vrSkin(player,base) {
 		el=me._button_fullscreen=document.createElement('div');
 		el.ggId="button_fullscreen";
 		el.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1 };
-		el.ggVisible=true;
+		el.ggVisible=false;
 		el.className="ggskin ggskin_container ";
 		el.ggType='container';
 		hs ='';
@@ -211,7 +211,7 @@ function pano2vrSkin(player,base) {
 		hs+='position : absolute;';
 		hs+='right : 10px;';
 		hs+='top : 10px;';
-		hs+='visibility : inherit;';
+		hs+='visibility : hidden;';
 		hs+='width : 32px;';
 		hs+='pointer-events:none;';
 		el.setAttribute('style',hs);
@@ -222,36 +222,7 @@ function pano2vrSkin(player,base) {
 		el.ggElementNodeId=function() {
 			return player.getCurrentNode();
 		}
-		me._button_fullscreen.onclick=function (e) {
-			player.toggleFullscreen();
-		}
-		me._button_fullscreen.onmouseout=function (e) {
-			me.elementMouseDown['button_fullscreen']=false;
-		}
-		me._button_fullscreen.onmousedown=function (e) {
-			player.toggleFullscreen();
-			me.elementMouseDown['button_fullscreen']=true;
-		}
-		me._button_fullscreen.onmouseup=function (e) {
-			me.elementMouseDown['button_fullscreen']=false;
-		}
-		me._button_fullscreen.ontouchend=function (e) {
-			me.elementMouseDown['button_fullscreen']=false;
-		}
-		me._button_fullscreen.ggActivate=function () {
-			player.toggleFullscreen();
-		}
 		me._button_fullscreen.ggUpdatePosition=function (useTransition) {
-		}
-		me._button_fullscreen.ggNodeChange=function () {
-			if (me._button_fullscreen.ggLastIsActive!=me._button_fullscreen.ggIsActive()) {
-				me._button_fullscreen.ggLastIsActive=me._button_fullscreen.ggIsActive();
-				if (me._button_fullscreen.ggIsActive()) {
-					if (me._button_fullscreen.ggActivate) me._button_fullscreen.ggActivate();
-				} else {
-					if (me._button_fullscreen.ggDeactivate) me._button_fullscreen.ggDeactivate();
-				}
-			}
 		}
 		el=me._button_image_normalscreen=document.createElement('div');
 		els=me._button_image_normalscreen__img=document.createElement('img');
@@ -331,6 +302,9 @@ function pano2vrSkin(player,base) {
 				}
 			}
 		}
+		me._button_image_normalscreen.onclick=function (e) {
+			player.exitFullscreen();
+		}
 		me._button_image_normalscreen.onmouseover=function (e) {
 			me._button_image_normalscreen__img.style.visibility='hidden';
 			me._button_image_normalscreen__imgo.style.visibility='inherit';
@@ -338,20 +312,11 @@ function pano2vrSkin(player,base) {
 		me._button_image_normalscreen.onmouseout=function (e) {
 			me._button_image_normalscreen__img.style.visibility='inherit';
 			me._button_image_normalscreen__imgo.style.visibility='hidden';
-			me.elementMouseDown['button_image_normalscreen']=false;
-		}
-		me._button_image_normalscreen.onmousedown=function (e) {
-			me.elementMouseDown['button_image_normalscreen']=true;
-		}
-		me._button_image_normalscreen.onmouseup=function (e) {
-			me.elementMouseDown['button_image_normalscreen']=false;
-		}
-		me._button_image_normalscreen.ontouchend=function (e) {
-			me.elementMouseDown['button_image_normalscreen']=false;
 		}
 		me._button_image_normalscreen.ggUpdatePosition=function (useTransition) {
 		}
 		me._button_fullscreen.appendChild(me._button_image_normalscreen);
+		me.divSkin.appendChild(me._button_fullscreen);
 		el=me._button_image_fullscreen=document.createElement('div');
 		els=me._button_image_fullscreen__img=document.createElement('img');
 		els.className='ggskin ggskin_svg';
@@ -387,23 +352,17 @@ function pano2vrSkin(player,base) {
 		hs+='cursor : pointer;';
 		hs+='height : 32px;';
 		hs+='position : absolute;';
-		hs+='right : 50px;';
-		hs+='top : 50px;';
+		hs+='right : 60px;';
+		hs+='top : 60px;';
 		hs+='visibility : inherit;';
 		hs+='width : 32px;';
 		hs+='pointer-events:auto;';
 		el.setAttribute('style',hs);
 		el.style[domTransform + 'Origin']='100% 0%';
 		me._button_image_fullscreen.ggIsActive=function() {
-			if ((this.parentNode) && (this.parentNode.ggIsActive)) {
-				return this.parentNode.ggIsActive();
-			}
 			return false;
 		}
 		el.ggElementNodeId=function() {
-			if ((this.parentNode) && (this.parentNode.ggElementNodeId)) {
-				return this.parentNode.ggElementNodeId();
-			}
 			return player.getCurrentNode();
 		}
 		me._button_image_fullscreen.logicBlock_visible = function() {
@@ -430,6 +389,9 @@ function pano2vrSkin(player,base) {
 				}
 			}
 		}
+		me._button_image_fullscreen.onclick=function (e) {
+			player.enterFullscreen();
+		}
 		me._button_image_fullscreen.onmouseover=function (e) {
 			me._button_image_fullscreen__img.style.visibility='hidden';
 			me._button_image_fullscreen__imgo.style.visibility='inherit';
@@ -437,21 +399,10 @@ function pano2vrSkin(player,base) {
 		me._button_image_fullscreen.onmouseout=function (e) {
 			me._button_image_fullscreen__img.style.visibility='inherit';
 			me._button_image_fullscreen__imgo.style.visibility='hidden';
-			me.elementMouseDown['button_image_fullscreen']=false;
-		}
-		me._button_image_fullscreen.onmousedown=function (e) {
-			me.elementMouseDown['button_image_fullscreen']=true;
-		}
-		me._button_image_fullscreen.onmouseup=function (e) {
-			me.elementMouseDown['button_image_fullscreen']=false;
-		}
-		me._button_image_fullscreen.ontouchend=function (e) {
-			me.elementMouseDown['button_image_fullscreen']=false;
 		}
 		me._button_image_fullscreen.ggUpdatePosition=function (useTransition) {
 		}
-		me._button_fullscreen.appendChild(me._button_image_fullscreen);
-		me.divSkin.appendChild(me._button_fullscreen);
+		me.divSkin.appendChild(me._button_image_fullscreen);
 		player.addListener('sizechanged', function() {
 			me.updateSize(me.divSkin);
 		});
@@ -525,15 +476,6 @@ function pano2vrSkin(player,base) {
 			} else {
 				player.setVariableValue('ht_ani', false);
 			}
-		}
-		if (me.elementMouseDown['button_fullscreen']) {
-			player.toggleFullscreen();
-		}
-		if (me.elementMouseDown['button_image_normalscreen']) {
-			player.exitFullscreen();
-		}
-		if (me.elementMouseDown['button_image_fullscreen']) {
-			player.enterFullscreen();
 		}
 	};
 	player.addListener('timer', me.skinTimerEvent);
